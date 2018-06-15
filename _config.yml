@@ -10,7 +10,7 @@ title: Marcin Portfolio
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Web Developer - Graphic Artist - User Experience Designer
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/krofka.github.io.git" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
