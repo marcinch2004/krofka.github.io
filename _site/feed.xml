@@ -4,24 +4,24 @@
     <title>Marcin Portfolio</title>
     <description>Web Developer - Graphic Artist - User Experience Designer
 </description>
-    <link>http://localhost:4000/portfolio/</link>
-    <atom:link href="http://localhost:4000/portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Jun 2018 17:39:21 +0200</pubDate>
-    <lastBuildDate>Fri, 15 Jun 2018 17:39:21 +0200</lastBuildDate>
+    <link>http://localhost:4000/krofka/</link>
+    <atom:link href="http://localhost:4000/krofka/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Jun 2018 13:21:11 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Jun 2018 13:21:11 +0200</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Fagbokforlaget</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/portfolio/img/portfolio/game.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/portfolio/img/portfolio/safe.png&quot; alt=&quot;image2&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;img/portfolio/game.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+&lt;img src=&quot;img/portfolio/safe.png&quot; alt=&quot;image2&quot; /&gt;
 To jest moja próba. Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
 
 &lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 01 Feb 2018 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2018/02/01/moje.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2018/02/01/moje.html</guid>
+        <link>http://localhost:4000/krofka/design/2018/02/01/moje.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2018/02/01/moje.html</guid>
         
         
         <category>Design</category>
@@ -36,8 +36,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Sat, 06 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/06/cabin.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/06/cabin.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/06/cabin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/06/cabin.html</guid>
         
         
         <category>Design</category>
@@ -52,8 +52,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Fri, 05 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/05/cake.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/05/cake.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/05/cake.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/05/cake.html</guid>
         
         
         <category>Design</category>
@@ -68,8 +68,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Thu, 04 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/04/circus.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/04/circus.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/04/circus.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/04/circus.html</guid>
         
         
         <category>Design</category>
@@ -84,8 +84,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Wed, 03 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/03/game.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/03/game.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/03/game.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/03/game.html</guid>
         
         
         <category>Design</category>
@@ -100,8 +100,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Tue, 02 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/02/safe.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/02/safe.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/02/safe.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/02/safe.html</guid>
         
         
         <category>Design</category>
@@ -116,8 +116,8 @@ To jest moja próba. Use this area of the page to describe your project. The ico
 
 </description>
         <pubDate>Mon, 01 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/portfolio/design/2016/02/01/submarine.html</link>
-        <guid isPermaLink="true">http://localhost:4000/portfolio/design/2016/02/01/submarine.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/01/submarine.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/01/submarine.html</guid>
         
         
         <category>Design</category>
