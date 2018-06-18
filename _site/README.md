@@ -1,6 +1,7 @@
 # bundle exec jekyll serve
 
-# on github should be: baseurl: "/" 
+# on github should be:  baseurl: "/" 
+# locally               baseurl: "/krofka" 
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/freelancer/)
 
