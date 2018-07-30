@@ -35,6 +35,9 @@
                     <div class="box__shadow"></div>
                     <img class="box__img box__img--original" src="{{ site.baseurl }}/{{ post.img }}" alt="Some image">
                 </div>
+                <span>{{post.title}}</span>
+                <span>{{post.keywords}}</span>
+                {{post.content}}
             </div>
             {% endfor %}
             <button class="overlay__close">
