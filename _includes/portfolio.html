@@ -36,6 +36,7 @@
                     <img class="box__img box__img--original" src="{{ site.baseurl }}/{{ post.img }}" alt="Some image">
                 </div>
             </div>
+            {% endfor %}
             <button class="overlay__close">
                 <svg class="icon icon--cross">
                     <use xlink:href="#icon-cross">
@@ -46,7 +47,6 @@
                     </use>
                 </svg>
             </button>
-            {% endfor %}
         </div>
 
     </div>
