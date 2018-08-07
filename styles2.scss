@@ -277,8 +277,10 @@ main {
 	position: absolute;
 	max-width: 195px;
 	font-size: 0.9rem;
-	text-align: right;
-	display: none;
+	// text-align: right;
+	// display: none;
+	padding: 0.25rem 1.25rem;
+    background: yellow;
 }
 
 .box__content strong {
@@ -298,6 +300,7 @@ main {
 
 .overlay--open {
 	pointer-events: auto;
+	overflow: scroll;
 }
 
 .overlay__reveal {
@@ -375,7 +378,7 @@ main {
 		margin: 0;
 	}
 	.box {
-		margin: 4rem;
+		margin: 4rem 2rem 7rem;
 	}
 	.box__title {
 		top: -4rem;

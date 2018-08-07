@@ -9,7 +9,7 @@
  * http://www.codrops.com
  */
 
-$(document).ready(function() {
+$(document).ready(function () {
 	console.log('ready!');
 });
 
@@ -27,9 +27,9 @@ $(document).ready(function() {
 	const setRange = (obj) => {
 		for (let k in obj) {
 			if (obj[k] == undefined) {
-				obj[k] = [ 0, 0 ];
+				obj[k] = [0, 0];
 			} else if (typeof obj[k] === 'number') {
-				obj[k] = [ -1 * obj[k], obj[k] ];
+				obj[k] = [-1 * obj[k], obj[k]];
 			}
 		}
 	};
@@ -63,7 +63,7 @@ $(document).ready(function() {
 					translation: { x: 20, y: 10, z: 0 }
 				},
 				text: {
-					translation: { x: 20, y: 50, z: 0 },
+					translation: { x: 10, y: 20, z: 0 },
 					rotation: { x: 0, y: 0, z: -20 }
 				},
 				deco: {
@@ -76,7 +76,8 @@ $(document).ready(function() {
 					reverseAnimation: { duration: 2, ease: 'Back.easeOut' }
 				},
 				content: {
-					translation: { x: 5, y: 3, z: 0 }
+					translation: { x: -15, y: -20, z: 0 },
+					rotation: { x: 0, y: 0, z: 15 }
 				}
 			};
 			Object.assign(this.options, options);
@@ -161,9 +162,9 @@ $(document).ready(function() {
 				}
 
 				let t =
-						this.options[key] != undefined
-							? this.options[key].translation || { x: 0, y: 0, z: 0 }
-							: { x: 0, y: 0, z: 0 },
+					this.options[key] != undefined
+						? this.options[key].translation || { x: 0, y: 0, z: 0 }
+						: { x: 0, y: 0, z: 0 },
 					r =
 						this.options[key] != undefined
 							? this.options[key].rotation || { x: 0, y: 0, z: 0 }
