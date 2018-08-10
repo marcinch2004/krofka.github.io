@@ -3,6 +3,10 @@ layout: post
 title:  "Fagbokforlaget"
 date:   2018-02-01 15:08:10 -0500
 img: img/portfolio/FBF-homepage.png
+images: 
+    - image_path: img/portfolio/FBF-homepage.png
+    - image_path: img/portfolio/Going Places - homepage.JPG
+    - image_path: img/portfolio/safe.png
 modalID: modalMoje
 category: Design
 keywords: Wordpress / SCSS / Layout

@@ -34,6 +34,10 @@ body {
 	overflow: hidden;
 }
 
+li {
+	list-style: none;
+}
+
 /* Page Loader */
 .js .loading::before {
 	content: '';
@@ -296,11 +300,20 @@ main {
 	left: 0;
 	z-index: 1000;
 	overflow: hidden;
+	.photo-gallery {
+		position: relative;
+		img {
+			width: 200px;
+		}
+	}
 }
 
 .overlay--open {
 	pointer-events: auto;
 	overflow: scroll;
+	display: grid;
+    grid-template-columns: 30px auto auto 30px;
+    grid-template-rows: 40px auto 40px;
 }
 
 .overlay__reveal {

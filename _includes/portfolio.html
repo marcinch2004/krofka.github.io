@@ -31,6 +31,15 @@
             <div class="overlay__reveal"></div>
             {% assign i = 0 %} {% for post in site.posts %} {% assign i = i | plus:1 %}
             <div class="overlay__item" id="preview-{{ i }}">
+
+                <ul class="photo-gallery">
+                    {% assign j = 0 %} {% for image in post.images %} {% assign j = j | plus:1 %}
+                    <li id="image-{{ j }}">
+                        <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+                    </li>
+                    {% endfor %}
+                </ul>
+
                 <div class="box">
                     <div class="box__shadow"></div>
                     <img class="box__img box__img--original" src="{{ site.baseurl }}/{{ post.img }}" alt="Some image">
@@ -38,6 +47,8 @@
                 <span>{{post.title}}</span>
                 <span>{{post.keywords}}</span>
                 {{post.content}}
+
+
             </div>
             {% endfor %}
             <button class="overlay__close">

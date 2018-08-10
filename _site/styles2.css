@@ -81,6 +81,8 @@ body { --color-text: #000; --color-bg: #ececec; --color-link: #000; --color-link
 
 .preview-open { overflow: hidden; }
 
+li { list-style: none; }
+
 /* Page Loader */
 .js .loading::before { content: ''; position: fixed; z-index: 100000; top: 0; left: 0; width: 100%; height: 100%; background: var(--color-bg); }
 
@@ -149,8 +151,10 @@ main { position: relative; }
 .box__content strong { white-space: nowrap; }
 
 .overlay { pointer-events: none; width: 100%; height: 100vh; position: fixed; top: 0; left: 0; z-index: 1000; overflow: hidden; }
+.overlay .photo-gallery { position: relative; }
+.overlay .photo-gallery img { width: 200px; }
 
-.overlay--open { pointer-events: auto; overflow: scroll; }
+.overlay--open { pointer-events: auto; overflow: scroll; display: grid; grid-template-columns: 30px auto auto 30px; grid-template-rows: 40px auto 40px; }
 
 .overlay__reveal { width: 100%; height: 100%; top: 0; left: 0; background: #000; position: absolute; z-index: 100; transform: translate3d(100%, 0, 0); }
 
