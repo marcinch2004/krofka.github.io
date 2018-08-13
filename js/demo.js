@@ -231,6 +231,7 @@ $(document).ready(function () {
 		}
 		revealItem() {
 			this.contentItem.style.opacity = 1;
+			this.contentItem.classList.add('active__preview');
 
 			let itemElems = [];
 			itemElems.push(this.contentItem.querySelector('.box__shadow'));
@@ -239,6 +240,7 @@ $(document).ready(function () {
 			itemElems.push(this.contentItem.querySelector('.box__text'));
 			itemElems.push(this.contentItem.querySelector('.box__deco'));
 			itemElems.push(this.contentItem.querySelector('.overlay__content'));
+			itemElems.push(this.contentItem.querySelector('.photo-gallery'));
 
 			for (let el of itemElems) {
 				if (el == null) continue;
@@ -268,6 +270,7 @@ $(document).ready(function () {
 				x: '0%',
 				onComplete: () => {
 					this.DOM.close.style.opacity = 0;
+					this.contentItem.classList.remove('active__preview');
 					// show scroll
 					document.body.classList.remove('preview-open');
 					// hide preview
@@ -306,6 +309,7 @@ $(document).ready(function () {
 			this.isPreviewOpen = true;
 			allowTilt = false;
 			this.overlay.show(contentItem);
+
 			// "explode" grid..
 			for (let item of this.items) {
 				for (let key in item.DOM.animatable) {
