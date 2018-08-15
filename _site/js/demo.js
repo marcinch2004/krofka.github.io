@@ -262,6 +262,7 @@ $(document).ready(function () {
 		}
 		hide() {
 			this.DOM.el.classList.remove('overlay--open');
+			this.DOM.el.scrollTo(0, 0);
 
 			// show revealer
 			TweenMax.to(this.DOM.reveal, 0.5, {

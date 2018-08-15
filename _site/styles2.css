@@ -177,7 +177,7 @@ main { position: relative; }
 
 .box__img--original { max-height: calc(100vh - 10rem); filter: none; }
 
-.overlay__close { position: absolute; top: 0; right: 0; background: none; border: 0; margin: 1rem; padding: 1rem; opacity: 0; z-index: 1000; }
+.overlay__close { position: fixed; top: 0; right: 0; background: none; border: 0; margin: 1rem; padding: 1rem; opacity: 0; z-index: 1000; }
 
 .overlay__close:focus { outline: none; }
 
