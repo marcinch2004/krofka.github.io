@@ -2,7 +2,12 @@
 layout: post
 title:  "Going Places"
 date:   2016-02-06 15:08:10 -0500
-img: img/portfolio/Going Places - homepage.JPG
+img: img/portfolio/going_places/goingplaces---homepage.png
+images: 
+    - image_path: img/portfolio/going_places/GP_1.jpg
+    - image_path: img/portfolio/going_places/GP_2.jpg
+    - image_path: img/portfolio/going_places/GP_3.jpg
+    - image_path: img/portfolio/website_example.jpg
 modalID: modalCabin
 category: Design
 keywords: Wordpress / SCSS / Layout
