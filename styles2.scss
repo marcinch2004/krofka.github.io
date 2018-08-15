@@ -301,43 +301,37 @@ main {
 	z-index: 1000;
 	overflow: hidden;
 	.box__text {
-		position: relative;
-		top: auto;
-		grid-column: 2;
-		grid-row: 1;
-		align-self: center;
+		position: fixed;
+		top: 0;
+		width: 300px;
+		right: 50px;
+		height: 100vh;
+		padding-top: 50px;
+		-webkit-margin-before: 0;
+		-webkit-margin-after: 0;
 		.box__text-inner {
 			display: inline;
+		}
+		.overlay__content {
+			font-family: 'Buenard', serif;
+			text-transform: none;
+			letter-spacing: normal;
 		}
 	}
 	.box__content {
 		position: relative;
-		grid-column: 4;
-		grid-row: 1;
-		justify-self: start;
-		align-self: center;
+		margin: 1.2rem 0 0.7rem;
+		max-width: 90%;
+		display: inline-block;
 	}
 	.photo-gallery {
-		max-height: 100vh;
 		position: relative;
-		grid-column: 2;
-		grid-row: 2;
+		width: calc(100vw - 28rem);
+		max-width: 1200px;
 		img {
 			max-width: 100%;
 			max-height: inherit;
-		}
-		.image-1 {
-			z-index:3;  
-		}
-		.image-2 {
-			z-index: 1;
-			left: -60px;
-			top: -30px;
-		}
-		.image-3 {
-			z-index: 2;
-			left: 40px;
-			top: 20px;
+			margin-bottom: 2rem;
 		}
 		.w3-button {
 			position: absolute;
@@ -390,15 +384,13 @@ main {
 
 .overlay__item {
 	width: 100%;
-	height: 100vh;
+	// height: 100vh;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: #ececec;
 	opacity: 0;
-    display: grid;
-    grid-template-columns: 30px auto 30px 300px 30px;
-	grid-template-rows: 120px auto 40px;
+	padding: 2rem;
 	z-index: auto;
 	&.active__preview {
 		z-index: 10;

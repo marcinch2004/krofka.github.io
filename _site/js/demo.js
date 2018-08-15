@@ -240,6 +240,7 @@ $(document).ready(function () {
 			itemElems.push(this.contentItem.querySelector('.box__text'));
 			itemElems.push(this.contentItem.querySelector('.box__deco'));
 			itemElems.push(this.contentItem.querySelector('.overlay__content'));
+			itemElems.push(this.contentItem.querySelector('.box__content'));
 			itemElems.push(this.contentItem.querySelector('.photo-gallery'));
 
 			for (let el of itemElems) {
@@ -308,7 +309,7 @@ $(document).ready(function () {
 		openItem(contentItem) {
 			if (this.isPreviewOpen) return;
 			this.isPreviewOpen = true;
-			allowTilt = false;
+			allowTilt = true;
 			this.overlay.show(contentItem);
 
 			// "explode" grid..
