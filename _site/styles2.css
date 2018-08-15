@@ -29,7 +29,7 @@ hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
 
 mark { background: #ff0; color: #000; }
 
-code, kbd, pre, samp { font-family: monospace,serif; font-size: 1em; }
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
 
 pre { white-space: pre-wrap; }
 
@@ -87,7 +87,8 @@ h1, h2, h3, h4, h5 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
 
 section { min-height: 100vh; padding: 2rem; }
 section.about { background: #57585c; }
-section.about p { font-size: 2rem; color: white; }
+section.about svg { width: 250px; height: auto; }
+section.about p { font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; }
 
 li { list-style: none; }
 

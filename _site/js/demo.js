@@ -46,38 +46,90 @@ $(document).ready(function () {
 			posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
 			posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
 		}
-		return { x: posx, y: posy };
+		return {
+			x: posx,
+			y: posy
+		};
 		console.log('posx');
 	};
 
 	class Item {
 		constructor(el, options) {
-			this.DOM = { el: el };
+			this.DOM = {
+				el: el
+			};
 
 			this.options = {
 				image: {
-					translation: { x: -10, y: -10, z: 0 },
-					rotation: { x: 0, y: 0, z: 0 }
+					translation: {
+						x: -10,
+						y: -10,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: 0
+					}
 				},
 				title: {
-					translation: { x: 20, y: 10, z: 0 }
+					translation: {
+						x: 20,
+						y: 10,
+						z: 0
+					}
 				},
 				text: {
-					translation: { x: 10, y: 20, z: 0 },
-					rotation: { x: 0, y: 0, z: -20 }
+					translation: {
+						x: 10,
+						y: 20,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: -20
+					}
 				},
 				deco: {
-					translation: { x: -20, y: 0, z: 0 },
-					rotation: { x: 0, y: 0, z: 3 }
+					translation: {
+						x: -20,
+						y: 0,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: 3
+					}
 				},
 				shadow: {
-					translation: { x: 30, y: 20, z: 0 },
-					rotation: { x: 0, y: 0, z: -2 },
-					reverseAnimation: { duration: 2, ease: 'Back.easeOut' }
+					translation: {
+						x: 30,
+						y: 20,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: -2
+					},
+					reverseAnimation: {
+						duration: 2,
+						ease: 'Back.easeOut'
+					}
 				},
 				content: {
-					translation: { x: -15, y: -20, z: 0 },
-					rotation: { x: 0, y: 0, z: 15 }
+					translation: {
+						x: -15,
+						y: -20,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: 15
+					}
 				}
 			};
 			Object.assign(this.options, options);
@@ -118,14 +170,11 @@ $(document).ready(function () {
 						}
 						TweenMax.to(
 							this.DOM.animatable[key],
-							this.options[key].reverseAnimation != undefined
-								? this.options[key].reverseAnimation.duration || 0
-								: 1.5,
-							{
-								ease:
-									this.options[key].reverseAnimation != undefined
-										? this.options[key].reverseAnimation.ease || 'Power2.easeOut'
-										: 'Power2.easeOut',
+							this.options[key].reverseAnimation != undefined ?
+							this.options[key].reverseAnimation.duration || 0 :
+							1.5, {
+								ease: this.options[key].reverseAnimation != undefined ?
+									this.options[key].reverseAnimation.ease || 'Power2.easeOut' : 'Power2.easeOut',
 								x: 0,
 								y: 0,
 								z: 0,
@@ -162,13 +211,27 @@ $(document).ready(function () {
 				}
 
 				let t =
-					this.options[key] != undefined
-						? this.options[key].translation || { x: 0, y: 0, z: 0 }
-						: { x: 0, y: 0, z: 0 },
+					this.options[key] != undefined ?
+					this.options[key].translation || {
+						x: 0,
+						y: 0,
+						z: 0
+					} : {
+						x: 0,
+						y: 0,
+						z: 0
+					},
 					r =
-						this.options[key] != undefined
-							? this.options[key].rotation || { x: 0, y: 0, z: 0 }
-							: { x: 0, y: 0, z: 0 };
+					this.options[key] != undefined ?
+					this.options[key].rotation || {
+						x: 0,
+						y: 0,
+						z: 0
+					} : {
+						x: 0,
+						y: 0,
+						z: 0
+					};
 
 				setRange(t);
 				setRange(r);
@@ -201,7 +264,9 @@ $(document).ready(function () {
 
 	class Overlay {
 		constructor() {
-			this.DOM = { el: document.querySelector('.overlay') };
+			this.DOM = {
+				el: document.querySelector('.overlay')
+			};
 			this.DOM.reveal = this.DOM.el.querySelector('.overlay__reveal');
 			this.DOM.items = this.DOM.el.querySelectorAll('.overlay__item');
 			this.DOM.close = this.DOM.el.querySelector('.overlay__close');
@@ -246,7 +311,10 @@ $(document).ready(function () {
 			for (let el of itemElems) {
 				if (el == null) continue;
 				const bounds = el.getBoundingClientRect();
-				const win = { width: window.innerWidth, height: window.innerHeight };
+				const win = {
+					width: window.innerWidth,
+					height: window.innerHeight
+				};
 				TweenMax.to(el, lineEq(0.8, 1.2, win.width, 0, Math.abs(bounds.left + bounds.width - win.width)), {
 					ease: 'Expo.easeOut',
 					delay: 0.2,
@@ -290,7 +358,9 @@ $(document).ready(function () {
 
 	class Grid {
 		constructor(el) {
-			this.DOM = { el: el };
+			this.DOM = {
+				el: el
+			};
 			this.items = [];
 			Array.from(this.DOM.el.querySelectorAll('a.grid__item')).forEach((item) => {
 				const itemObj = new Item(item);
@@ -321,7 +391,10 @@ $(document).ready(function () {
 
 						let x;
 						let y;
-						const win = { width: window.innerWidth, height: window.innerHeight };
+						const win = {
+							width: window.innerWidth,
+							height: window.innerHeight
+						};
 
 						if (bounds.top + bounds.height / 2 < win.height / 2 - win.height * 0.1) {
 							//x = getRandomInt(-250,-50);
@@ -361,11 +434,12 @@ $(document).ready(function () {
 					const el = item.DOM.animatable[key];
 					if (el) {
 						const bounds = el.getBoundingClientRect();
-						const win = { width: window.innerWidth };
+						const win = {
+							width: window.innerWidth
+						};
 						TweenMax.to(el, 0.6, {
 							ease: 'Expo.easeOut',
-							delay:
-								0.55 + lineEq(0, 0.2, 0, win.width, Math.abs(bounds.left + bounds.width - win.width)),
+							delay: 0.55 + lineEq(0, 0.2, 0, win.width, Math.abs(bounds.left + bounds.width - win.width)),
 							x: 0,
 							y: 0,
 							rotationZ: 0,
@@ -381,6 +455,7 @@ $(document).ready(function () {
 
 	let allowTilt = true;
 	new Grid(document.querySelector('.grid'));
+	new Grid(document.querySelector('.grid-about'));
 
 	// Preload all the images in the page..
 	imagesLoaded(document.querySelectorAll('.box__img'), () => document.body.classList.remove('loading'));
