@@ -300,12 +300,31 @@ main {
 	left: 0;
 	z-index: 1000;
 	overflow: hidden;
+	.box__text {
+		position: relative;
+		top: auto;
+		grid-column: 2;
+		grid-row: 1;
+		align-self: center;
+		.box__text-inner {
+			display: inline;
+		}
+	}
+	.box__content {
+		position: relative;
+		grid-column: 4;
+		grid-row: 1;
+		justify-self: start;
+		align-self: center;
+	}
 	.photo-gallery {
+		max-height: 100vh;
 		position: relative;
 		grid-column: 2;
 		grid-row: 2;
 		img {
-			width: 300px;
+			max-width: 100%;
+			max-height: inherit;
 		}
 		.image-1 {
 			z-index:3;  
@@ -322,7 +341,7 @@ main {
 		}
 		.w3-button {
 			position: absolute;
-			top: 40%;
+			top: 30vh;
 			z-index: 999;
 			display: block;
 			padding: 4% 3%;
@@ -356,9 +375,6 @@ main {
 .overlay--open {
 	pointer-events: auto;
 	overflow: scroll;
-	display: grid;
-    grid-template-columns: 30px auto auto 30px;
-    grid-template-rows: 40px auto 40px;
 }
 
 .overlay__reveal {
@@ -381,8 +397,8 @@ main {
 	background: #ececec;
 	opacity: 0;
     display: grid;
-    grid-template-columns: 30px 500px auto 30px;
-	grid-template-rows: 40px auto 40px;
+    grid-template-columns: 30px auto 30px 300px 30px;
+	grid-template-rows: 120px auto 40px;
 	z-index: auto;
 	&.active__preview {
 		z-index: 10;
@@ -423,7 +439,7 @@ main {
 .overlay__content {
 	font-size: 1rem;
 	line-height: 1.5;
-	grid-column: 3;
+	grid-column: 4;
 	grid-row: 2;
 }
 
