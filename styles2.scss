@@ -31,8 +31,32 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5 {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+}
+
+.page-scroll {
+	> a {
+		padding: 0.5rem 1rem;
+		background: white;
+	}
+}
+
 .preview-open {
 	overflow: hidden;
+}
+
+section {
+	min-height: 100vh;
+	padding: 2rem;
+	&.about {
+		background: #57585c;
+		p {
+			font-size: 2rem;
+			color: white;
+		}
+	}
 }
 
 li {
