@@ -119,6 +119,18 @@ $(document).ready(function () {
 						ease: 'Back.easeOut'
 					}
 				},
+				shadowCow: {
+					translation: {
+						x: -10,
+						y: 5,
+						z: 0
+					},
+					rotation: {
+						x: 0,
+						y: 0,
+						z: 0
+					}
+				},
 				content: {
 					translation: {
 						x: -15,
@@ -141,6 +153,7 @@ $(document).ready(function () {
 			this.DOM.animatable.deco = this.DOM.el.querySelector('.box__deco');
 			this.DOM.animatable.shadow = this.DOM.el.querySelector('.box__shadow');
 			this.DOM.animatable.content = this.DOM.el.querySelector('.box__content');
+			this.DOM.animatable.shadowCow = this.DOM.el.querySelector('.box__shadow_cow');
 
 			this.initEvents();
 		}
@@ -171,8 +184,8 @@ $(document).ready(function () {
 						TweenMax.to(
 							this.DOM.animatable[key],
 							this.options[key].reverseAnimation != undefined ?
-							this.options[key].reverseAnimation.duration || 0 :
-							1.5, {
+								this.options[key].reverseAnimation.duration || 0 :
+								1.5, {
 								ease: this.options[key].reverseAnimation != undefined ?
 									this.options[key].reverseAnimation.ease || 'Power2.easeOut' : 'Power2.easeOut',
 								x: 0,
@@ -212,26 +225,26 @@ $(document).ready(function () {
 
 				let t =
 					this.options[key] != undefined ?
-					this.options[key].translation || {
-						x: 0,
-						y: 0,
-						z: 0
-					} : {
-						x: 0,
-						y: 0,
-						z: 0
-					},
+						this.options[key].translation || {
+							x: 0,
+							y: 0,
+							z: 0
+						} : {
+							x: 0,
+							y: 0,
+							z: 0
+						},
 					r =
-					this.options[key] != undefined ?
-					this.options[key].rotation || {
-						x: 0,
-						y: 0,
-						z: 0
-					} : {
-						x: 0,
-						y: 0,
-						z: 0
-					};
+						this.options[key] != undefined ?
+							this.options[key].rotation || {
+								x: 0,
+								y: 0,
+								z: 0
+							} : {
+								x: 0,
+								y: 0,
+								z: 0
+							};
 
 				setRange(t);
 				setRange(r);
