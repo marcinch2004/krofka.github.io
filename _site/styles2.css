@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
 section { min-height: 100vh; padding: 2rem; }
 section.about { background: #57585c; }
 section.about .box { width: 80%; }
-section.about .box .box__shadow_cow { position: absolute; background: #ff0; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+section.about .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 section.about .box svg { width: 250px; height: auto; }
 section.about .box p { font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; }
 
