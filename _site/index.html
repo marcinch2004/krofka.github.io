@@ -38,7 +38,7 @@
    <!-- About Section -->
 <section class="about scroll-section" id="about" data-section-name="about">
     <div class="row grid-about">
-        <a href="#portfolio" class="grid__item grid__item--noclick page-scroll">
+        <li class="grid__item grid__item--noclick">
             <div class="box">
                 <!-- <div class="box__shadow"></div> -->
                 <div class="box__shadow_cow"></div>
@@ -81,11 +81,16 @@
                 <p class="box__contentx">I’m Toby Powell, a front-end web designer and 3d Visualiser based in East Sussex.
                     I’m into all things web, 3d and mobile. I’ve spent the last 4 years in Thailand, during which time i
                     designed, built and maintained the Vogue Thailand website.</p>
-                <div class="box__deco page-scroll">&#10097;
-
-                </div>
+                <a href="#portfolio" class="page-scroll box__deco">
+                    <svg viewBox="0 0 256 256">
+                        <polyline class="arrow_up" fill="none" stroke="black" stroke-width="24" stroke-linejoin="round" stroke-linecap="round" points="16,72 128,184 240,72"
+                        />
+                        <!-- <polyline fill="none" stroke="black" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" points="16,72 128,184 240,72"
+                        /> -->
+                    </svg>
+                </a>
             </div>
-        </a>
+        </li>
     </div>
 
     <!-- <li class="page-scroll">

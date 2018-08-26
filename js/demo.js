@@ -375,7 +375,7 @@ $(document).ready(function () {
 				el: el
 			};
 			this.items = [];
-			Array.from(this.DOM.el.querySelectorAll('a.grid__item')).forEach((item) => {
+			Array.from(this.DOM.el.querySelectorAll('a.grid__item, li.grid__item')).forEach((item) => {
 				const itemObj = new Item(item);
 				this.items.push(itemObj);
 				if (!item.classList.contains('grid__item--noclick')) {
