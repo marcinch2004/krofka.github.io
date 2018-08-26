@@ -83,6 +83,8 @@ h1, h2, h3, h4, h5 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
 
 .preview-open { overflow: hidden; }
 
+.dont__scroll { height: 100%; overflow: auto; }
+
 section { min-height: 100vh; padding: 2rem; }
 section.about { background: #57585c; display: grid; }
 section.about li.grid__item { height: 100%; cursor: default; }

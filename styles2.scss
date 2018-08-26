@@ -246,6 +246,11 @@ h5 {
 	overflow: hidden;
 }
 
+.dont__scroll {
+    height: 100%;
+    overflow: auto;
+}
+
 section {
 	min-height: 100vh;
 	padding: 2rem;

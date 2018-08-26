@@ -310,6 +310,7 @@ $(document).ready(function () {
 		revealItem() {
 			this.contentItem.style.opacity = 1;
 			this.contentItem.classList.add('active__preview');
+			$('section').addClass('dont__scroll');
 
 			let itemElems = [];
 			itemElems.push(this.contentItem.querySelector('.box__shadow'));
