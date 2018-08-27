@@ -86,13 +86,15 @@ h1, h2, h3, h4, h5 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
 .dont__scroll { height: 100%; overflow: auto; }
 
 section { min-height: 100vh; padding: 2rem; }
-section.about { background: #57585c; display: grid; }
+section.about { background: #ed326a; display: grid; }
 section.about li.grid__item { height: 100%; cursor: default; }
 section.about li.grid__item .box { width: 80%; margin-bottom: 0; }
+section.about li.grid__item .box .box__text-inner { background: #ed326a; z-index: 10; }
 section.about li.grid__item .box .box__text { top: -4.5rem; }
+section.about li.grid__item .box .box__shadow { top: 1rem; left: 1rem; }
 section.about li.grid__item .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 section.about li.grid__item .box svg { width: 250px; height: auto; }
-section.about li.grid__item .box p { font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; }
+section.about li.grid__item .box p { font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; margin-top: 3rem; }
 section.about li.grid__item .box a.box__deco { position: absolute; font-weight: bold; width: 5rem; bottom: 0; right: 0; left: 0; display: flex; padding: 1rem 0; justify-content: center; margin: 0 auto; text-align: center; }
 section.about li.grid__item .box a.box__deco svg { height: 3.5rem; }
 section.about li.grid__item .box a.box__deco svg .arrow_up { animation: move-down 0.3s ease-out forwards; transform-origin: center top; }

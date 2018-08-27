@@ -2,6 +2,10 @@
 # marcin styles 
 --- 
 
+//variables
+$color-about: #ed326a;
+
+
 .navbar-custom {
 	background: red;
 }
@@ -255,7 +259,7 @@ section {
 	min-height: 100vh;
 	padding: 2rem;
 	&.about {
-		background: #57585c;
+		background: $color-about;
 		display: grid;
 		li.grid__item {
 			height: 100%;
@@ -263,8 +267,16 @@ section {
 			.box {
 				width: 80%;
 				margin-bottom: 0;
+				.box__text-inner {
+					background: $color-about;
+					z-index: 10;
+				}
 				.box__text {
 					top: -4.5rem;
+				}
+				.box__shadow {
+				    top: 1rem;
+   					left: 1rem;	
 				}
 				.box__shadow_cow {
 					position: absolute;
@@ -278,6 +290,7 @@ section {
 					right: 0;
 					margin-left: auto;
 					margin-right: auto;
+					// background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOklEQVQoU43MSwoAMAgD0eT+h7ZYaOlHo7N+DNHL2HAGgBWcyGcKbqTghTL4oQiG6IUpOqFEC5bI4QD8PAoKd9j4XwAAAABJRU5ErkJggg==)
 				}
 				svg {
 					width: 250px;
@@ -289,6 +302,7 @@ section {
 					position: relative;
 					max-width: initial;
 					background: none;
+					margin-top: 3rem;
 				}
 				a.box__deco {
 					position: absolute;
