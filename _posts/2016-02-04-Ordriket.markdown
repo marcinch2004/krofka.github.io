@@ -8,7 +8,7 @@ images:
     - image_path: img/portfolio/ordriket/ordriket-2.jpg    
     - image_path: img/portfolio/ordriket/ordriket-3.jpg
 modalID: modalCircus
-keywords: Design / Prototype / scss + js /Portfolio CMS
+keywords: Design / Prototype / SCSS + JS /Portfolio CMS
 category: Design
 ---
 {:.overlay__content}

@@ -9,8 +9,8 @@ images:
     - image_path: img/portfolio/goingplaces/GP_3.jpg
     - image_path: img/portfolio/website_example.jpg
 modalID: modalCabin
+keywords: Design / SCSS / Wordpress
 category: Design
-keywords: Wordpress / SCSS / Layout
 decoration: '&#10115;'
 ---
 {:.overlay__content}

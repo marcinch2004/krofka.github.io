@@ -9,7 +9,7 @@ images:
     - image_path: img/portfolio/HR set/hrset-3.jpg
     - image_path: img/portfolio/HR set/hrset-4.jpg
 modalID: modalCake
-keywords: Wordpress / SCSS / Layout
+keywords: Design + Identification / SCSS / Wordpress
 category: Design
 ---
 {:.overlay__content}
