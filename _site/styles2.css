@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Buenard:400,700");
-.navbar-custom { background: red; }
+.navbar-custom { background: blue; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
 
@@ -158,7 +158,7 @@ main { position: relative; }
 
 .grid__item:hover .box__title-inner::before { height: 100%; width: 100%; }
 
-.box__text { margin: 0; position: absolute; top: -5rem; font-weight: normal; text-transform: uppercase; letter-spacing: 0.15rem; font-size: 1.75rem; font-family: 'Anton', sans-serif; }
+.box__text { margin: 0; position: absolute; top: -3em; font-weight: normal; text-transform: uppercase; letter-spacing: 0.15rem; font-size: 1.75rem; font-family: 'Anton', sans-serif; pointer-events: none; }
 
 .box__text-inner { position: relative; display: block; }
 

@@ -564,13 +564,14 @@ main {
 .box__text {
 	margin: 0;
 	position: absolute;
-	top: -5em;
+	top: -3em;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 	font-size: 1.75rem;
 	// margin: 0.5rem 1rem;
 	font-family: 'Anton', sans-serif;
+	pointer-events: none;
 }
 
 .box__text-inner {
