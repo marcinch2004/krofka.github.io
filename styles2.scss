@@ -652,6 +652,14 @@ main {
 		padding-top: 50px;
 		-webkit-margin-before: 0;
 		-webkit-margin-after: 0;
+		.website__link {
+			font-size: inherit;
+			text-decoration: underline;
+			color: blue;
+			pointer-events: auto;
+			margin-top: 0.2rem;
+			display: inline-block;
+		}
 		.box__text-inner {
 			display: inline-block;
 			padding: 0;
@@ -701,6 +709,11 @@ main {
 				position: relative;
 				left: 1rem;
 				top: 1rem;
+			}
+			&:not(:first-of-type) {
+				img {
+					box-shadow: -4px 2px 22px 2px #dcdcdc;
+				}
 			}
 		}
 	}
