@@ -12,7 +12,7 @@ images:
 modalID: modalMoje
 keywords: Design / SCSS / Wordpress
 category: Design
-decoration: '&#10032;'
+*decoration: '&#10032;'
 website: www.fagbokforlaget.no
 ---
 {:.overlay__content}

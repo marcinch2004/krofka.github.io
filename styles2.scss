@@ -659,6 +659,10 @@ main {
 			pointer-events: auto;
 			margin-top: 0.2rem;
 			display: inline-block;
+			transition: all 0.25s ease-in-out;
+			&:hover {
+				letter-spacing: 0.165rem;
+			}
 		}
 		.box__text-inner {
 			display: inline-block;
@@ -703,8 +707,10 @@ main {
 		.image__container {
 			margin-bottom: 2rem;
 			border-radius: 0.3rem;
+			text-align: right;
 			img {
-				max-width: 100%;
+				max-width: 900px;
+				width: 100%;
 				max-height: inherit;
 				position: relative;
 				left: 1rem;
@@ -712,7 +718,7 @@ main {
 			}
 			&:not(:first-of-type) {
 				img {
-					box-shadow: -4px 2px 22px 2px #dcdcdc;
+					//box-shadow: -4px 2px 22px 2px #dcdcdc;
 				}
 			}
 		}
@@ -791,7 +797,7 @@ main {
 	.grid {
 		display: grid;
 		align-items: center;
-		padding: 3rem 3rem 15rem 3rem;
+		padding: 3rem 3rem 3rem 3rem;
 		grid-row-gap: 2rem;
 		grid-template-columns: repeat(3, calc(100% / 3));
 	}
@@ -862,7 +868,7 @@ main {
 		flex-direction: row;
 	}
 	.overlay__content {
-		font-size: 1rem;
+		font-size: 1.3rem;
 		margin-top: 0;
 	}
 	.overlay__item .box__title--bottom {
