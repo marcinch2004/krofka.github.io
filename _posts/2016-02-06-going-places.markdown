@@ -5,7 +5,7 @@ date:   2016-02-06 15:08:10 -0500
 img: img/goingplaces/goingplaces---homepage.png
 images: 
     - image_path: img/goingplaces/GP_1.jpg
-    - image_path: img/goingplaces/GP_2.JPG
+    - image_path: img/goingplaces/GP_2.jpg
     - image_path: img/portfolio/goingplaces/GP_3.jpg
     - image_path: img/portfolio/website_example.jpg
 modalID: modalCabin

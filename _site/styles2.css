@@ -95,18 +95,19 @@ section.about li.grid__item .box .box__shadow { top: 1rem; left: 1rem; backgroun
 section.about li.grid__item .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 section.about li.grid__item .box svg { width: 250px; height: auto; }
 section.about li.grid__item .box p { font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; margin-top: 3rem; }
-section.about li.grid__item .box a.box__deco { position: absolute; font-weight: bold; width: 5rem; bottom: 0; right: 0; left: 0; display: flex; padding: 1rem 0; justify-content: center; margin: 0 auto; text-align: center; }
-section.about li.grid__item .box a.box__deco svg { height: 3.5rem; }
-section.about li.grid__item .box a.box__deco svg .arrow_up { animation: move-down 0.3s ease-out forwards; transform-origin: center top; }
-section.about li.grid__item .box a.box__deco:hover .arrow_up { animation: move-up 0.3s ease-out forwards; transform-origin: center top; }
-@keyframes move-up { from { transform: translate(0, -1rem); transform: scale(0.7); }
-  to { transform: translate(0, 0); transform: scale(1); } }
-@keyframes move-down { from { transform: translate(0, 0); transform: scale(1); }
-  to { transform: translate(0, -1rem); transform: scale(0.7); } }
 section.about li.grid__item .page-scroll a { display: inline-block; padding: 0.5rem 1rem; background: white; }
 section.about li.grid__item .page-scroll a > span { display: inherit; font-size: 2rem; }
 section.contact { background: #57585c; }
 
+/*jump to next section arrow*/
+section a.box__deco { position: relative; font-weight: bold; width: 5rem; bottom: 0; right: 0; left: 0; display: flex; padding: 1rem 0; justify-content: center; margin: 0 auto; text-align: center; }
+section a.box__deco svg { height: 3.5rem; }
+section a.box__deco svg .arrow_up { animation: move-down 0.3s ease-out forwards; transform-origin: center top; }
+section a.box__deco:hover .arrow_up { animation: move-up 0.3s ease-out forwards; transform-origin: center top; }
+@keyframes move-up { from { transform: translate(0, -1rem); transform: scale(0.7); }
+  to { transform: translate(0, 0); transform: scale(1); } }
+@keyframes move-down { from { transform: translate(0, 0); transform: scale(1); }
+  to { transform: translate(0, -1rem); transform: scale(0.7); } }
 li { list-style: none; }
 
 /* Page Loader */
@@ -189,7 +190,7 @@ main { position: relative; }
 .overlay .photo-gallery .image__container { margin-bottom: 2rem; border-radius: 0.3rem; text-align: right; }
 .overlay .photo-gallery .image__container img { max-width: 900px; width: 100%; max-height: inherit; position: relative; left: 1rem; top: 1rem; }
 
-.overlay--open { pointer-events: auto; overflow: scroll; }
+.overlay--open { pointer-events: auto; overflow-y: scroll; }
 
 .overlay__reveal { width: 100%; height: 100%; top: 0; left: 0; background: #000; position: absolute; z-index: 100; transform: translate3d(100%, 0, 0); }
 
