@@ -1,4 +1,18 @@
+--------------------------
+
+To install jekyll
+# gem install jekyll | sudo gem install jekyll
+
+To install bundler (if not installed)
+# gem install bundler | sudo gem install bundler
+
+To install theme
+# bundle install
+
+To run site locally
 # bundle exec jekyll serve
+
+--------------------------
 
 # on github should be:  baseurl: "/" 
 # locally               baseurl: "/krofka" 
