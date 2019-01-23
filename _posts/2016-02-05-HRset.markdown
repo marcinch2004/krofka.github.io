@@ -9,10 +9,11 @@ images:
     - image_path: img/portfolio/HR set/hrset-3.jpg
     - image_path: img/portfolio/HR set/hrset-4.jpg
     - image_path: img/portfolio/HR set/hrset-5.png
+      class: no-shadow
 modalID: modalCake
-keywords: Design + Identification / SCSS / Wordpress
+keywords: Branding / Design / development / Wordpress
 category: Design
 website: hrset.pl
 ---
 {:.overlay__content}
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Zadanie polegało na stworzeniu brandingu i strony internetowej dla nowopowstałej firmy. Wyzwaniem było stworzenie dynamicznego i nowoczesnego wizerunku firmy począwszy od stworzenia logotypu przez materiały reklamowe na stronie internetowej skończywszy. Strona miała działać szybko i płynnie, dlatego oparłem ją o własny wordpressowy template z minimalną ilością kodu.

@@ -252,7 +252,6 @@ h5 {
 
 .dont__scroll {
     height: 100%;
-    overflow: auto;
 }
 
 section {
@@ -300,7 +299,8 @@ section {
 					width: 250px;
 					height: auto;
 				}
-				p {
+				.box__contentx {
+					flex-grow: 1;
 					font-size: 1.8rem;
 					color: white;
 					position: relative;
@@ -728,6 +728,10 @@ main {
 				position: relative;
 				left: 1rem;
 				top: 1rem;
+				box-shadow: 0px 0px 15px 5px #cccccc;
+			}
+			img.no-shadow {
+				box-shadow: none;
 			}
 			&:not(:first-of-type) {
 				img {

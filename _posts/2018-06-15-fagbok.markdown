@@ -4,15 +4,16 @@ title:  "Fagbokforlaget"
 date:   2018-02-01 15:08:10 -0500
 img: img/portfolio/FBF-homepage.png
 images: 
-    - image_path: img/portfolio/Fagbok-1.png
-    - image_path: img/portfolio/Fagbok-2.jpg
-    - image_path: img/portfolio/Fagbok-3.jpg
-    - image_path: img/portfolio/Fagbok-4.jpg
+    - image_path: img/portfolio/fagbokforlaget/Fagbok-1.png
+      class: no-shadow
+    - image_path: img/portfolio/fagbokforlaget/Fagbok-2.jpg
+    - image_path: img/portfolio/fagbokforlaget/Fagbok-3.jpg
+    - image_path: img/portfolio/fagbokforlaget/Fagbok-4.jpg
     - image_path: img/portfolio/website_example.jpg
 modalID: modalMoje
-keywords: Design / SCSS / Wordpress
+keywords: Prototype / Design / UI Design
 category: Design
 website: fagbokforlaget.no
 ---
 {:.overlay__content}
-To jest moja próba. Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Moim zadniem w tym projekcie było stworzenie designu strony bazującego na dostarczonym stylebooku. Wyzwaniem było oparcie designu o jeden tylko kolor główny, stworzenie przejrzystego systemu filtrów i uwzględnieniu bardzo długich tytułów i podtytułów ksiązek, a takze publikacji mających wielu autorów. W trakcie pracy ściśle współpracowałem z teamem UX i klientem. Strona wciąz jest zmieniena i rozwijana.

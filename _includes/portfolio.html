@@ -34,7 +34,7 @@
                 <figure class="photo-gallery">
                     {% assign j = 0 %} {% for image in post.images %} {% assign j = j | plus:1 %}
                     <div class="image__container">
-                        <img class="mySlidesx image-{{ j }}" src="{{ image.image_path }}" alt="{{ image.title}}" />
+                        <img class="mySlidesx image-{{ j }} {{ image.class }}" src="{{ image.image_path }}" alt="{{ image.title}}" />
                     </div>
                     {% endfor%}
                 </figure>
