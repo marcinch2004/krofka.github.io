@@ -11,7 +11,7 @@ images:
     - image_path: img/portfolio/HR set/hrset-5.png
       class: no-shadow
 modalID: modalCake
-keywords: Branding / Design / development / Wordpress
+keywords: Branding / Design / Development / Wordpress
 category: Design
 website: hrset.pl
 ---

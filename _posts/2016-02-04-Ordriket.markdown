@@ -8,8 +8,9 @@ images:
     - image_path: img/portfolio/ordriket/ordriket-2.jpg    
     - image_path: img/portfolio/ordriket/ordriket-3.jpg
 modalID: modalCircus
-keywords: Design / Prototype / SCSS + JS /Portfolio CMS
+keywords: Design / Prototype / Development /Portfolio CMS
 category: Design
+website: ordriket.no
 ---
 {:.overlay__content}
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+W tym projekcie moim zadaniem był redesigning istniejącej strony, uatrakcyjnienie zawartości i poprawienie, o ile to jest możliwe na starym CMS-ie, jej funkcjonowania. Ściśle współpracowałem z teamem UX, którego wytyczne wdrażałem w prototyp i samą stronę. Celem było dotarcie do grupy docelowej (dzieci i nauczyciele) oraz powiązanie strony intenretowej w papierowym podręcznikiem. Stąd pomysł na zanimowanie illustracji z książki.

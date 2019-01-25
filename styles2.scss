@@ -712,6 +712,10 @@ main {
 		margin: 1.2rem 0 0.7rem;
 		max-width: 90%;
 		display: inline-block;
+		text-transform: capitalize;
+		.website__link {
+			text-transform: uppercase;
+		}
 	}
 	.photo-gallery {
 		position: relative;
