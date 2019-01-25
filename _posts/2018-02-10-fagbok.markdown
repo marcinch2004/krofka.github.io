@@ -9,7 +9,8 @@ images:
     - image_path: img/portfolio/fagbokforlaget/Fagbok-2.jpg
     - image_path: img/portfolio/fagbokforlaget/Fagbok-3.jpg
     - image_path: img/portfolio/fagbokforlaget/Fagbok-4.jpg
-    - image_path: img/portfolio/website_example.jpg
+    - image_path: img/portfolio/fagbokforlaget/Fagbok-5.png
+      class: no-shadow
 modalID: modalMoje
 keywords: Prototype / Design / UI Design
 category: Design

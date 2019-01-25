@@ -7,7 +7,7 @@ images:
     - image_path: img/goingplaces/GP_1.jpg
     - image_path: img/goingplaces/GP_2.jpg
     - image_path: img/portfolio/goingplaces/GP_3.jpg
-    - image_path: img/portfolio/website_example.jpg
+    - image_path: img/portfolio/goingplaces/GP_4.gif
 modalID: modalCabin
 keywords: Branding / Design / Development / Portfolio CMS
 price: BELMA 2017, bronze award
