@@ -604,13 +604,13 @@ main {
 	flex: none;
 	margin: 0 auto;
 	max-width: 100%;
-	filter: grayscale(1);
+	filter: grayscale(0);
 	transition: filter 0.3s;
 	pointer-events: none;
 }
 
 .grid__item:hover .box__img:not(.box__img--original) {
-	filter: grayscale(0);
+	filter: grayscale(1);
 }
 
 .box__shadow {

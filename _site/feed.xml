@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/krofka/</link>
     <atom:link href="http://localhost:4000/krofka/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Jan 2019 16:32:19 +0100</pubDate>
-    <lastBuildDate>Fri, 25 Jan 2019 16:32:19 +0100</lastBuildDate>
+    <pubDate>Sun, 27 Jan 2019 23:20:08 +0100</pubDate>
+    <lastBuildDate>Sun, 27 Jan 2019 23:20:08 +0100</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -54,8 +54,8 @@
         <description>&lt;p class=&quot;overlay__content&quot;&gt;W tym projekcie moim zadaniem był redesigning istniejącej strony, uatrakcyjnienie zawartości i poprawienie, o ile to jest możliwe na starym CMS-ie, jej funkcjonowania. Ściśle współpracowałem z teamem UX, którego wytyczne wdrażałem w prototyp i samą stronę. Celem było dotarcie do grupy docelowej (dzieci i nauczyciele) oraz powiązanie strony intenretowej w papierowym podręcznikiem. Stąd pomysł na zanimowanie illustracji z książki.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/krofka/design/2016/02/04/ordriket.html</link>
-        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/04/ordriket.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/04/Ordriket.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/04/Ordriket.html</guid>
         
         
         <category>Design</category>
@@ -67,8 +67,8 @@
         <description>&lt;p class=&quot;overlay__content&quot;&gt;Moim zadaniem było stworzenie od podstaw identyfikacji graficznej i strony internetowej dla charytatywnego wydarzenia mającego na celu aktywność fizyczną i oddawanie krwi. To projekt, w którym jako ultramaratończyk i grafik uczestniczę osobiście, odpowiadając za wygląd, zawartość i funkcjonowanie strony. Strona jest wciąż modyfikowana i wciąż czeka na swoją wersję na urządzenia mobine.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Feb 2016 21:08:10 +0100</pubDate>
-        <link>http://localhost:4000/krofka/design/2016/02/03/ultrakrew.html</link>
-        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/03/ultrakrew.html</guid>
+        <link>http://localhost:4000/krofka/design/2016/02/03/Ultrakrew.html</link>
+        <guid isPermaLink="true">http://localhost:4000/krofka/design/2016/02/03/Ultrakrew.html</guid>
         
         
         <category>Design</category>
