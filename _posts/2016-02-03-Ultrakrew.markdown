@@ -2,7 +2,11 @@
 layout: post
 title:  "Uktrakrew"
 date:   2016-02-03 15:08:10 -0500
-img: img/portfolio/game.png
+img: img/portfolio/ultrakrew/ultrakrew-homepage.png
+images: 
+    - image_path: img/portfolio/ultrakrew/ultrakrew-homepage.png
+      class: no-shadow
+    - image_path: img/portfolio/ultrakrew/ultrakrew-1.jpg
 modalID: modalGame
 keywords: Branding / Design / Development / Wordpress
 category: Design
