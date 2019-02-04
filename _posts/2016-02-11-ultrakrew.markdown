@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uktrakrew"
+title:  "Ultrakrew"
 date:   2016-02-03 15:08:10 -0500
 img: img/portfolio/ultrakrew/ultrakrew-homepage.png
 images: 

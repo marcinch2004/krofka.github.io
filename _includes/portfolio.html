@@ -46,7 +46,14 @@
                             <figure></figure>
                         </span>
                         <span class="box__content box__content2">{{post.keywords}}<br>
+                            
+                            <!-- check length of the web address, if longer than 40charcters, hide -->
+                            {% if post.website.size > 40 %}
+                            <a href="http://{{post.website}}" class="website__link" target="_blank">visit website</a>
+                            {% else %}
                             <a href="http://{{post.website}}" class="website__link" target="_blank">{{post.website}}</a>
+                            {% endif %}
+
                         </span>
                         {{post.content}}
                     </div>
