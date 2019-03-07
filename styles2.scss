@@ -949,3 +949,36 @@ main {
 		margin: 0;
 	}
 }
+
+section.skills {
+	background: #ed326a;
+	.grid {
+		grid-template-columns: repeat(12, calc(100% / 12));
+		grid-template-rows: 100px 100px 100px;
+		.grid__item {
+			background: yellow;
+		}
+	}
+}
+
+section.skills {
+	.skills-container {
+		display: flex;
+		.skills-container__item {
+			flex-basis: 50%;
+			border: 1px solid;
+			.skills-container__item--header {
+				text-align: center;
+			}
+			.grid {
+				.grid__item {
+					border: 1px dashed;
+					&.big {
+						grid-column-start: 3;
+						grid-column-end: 10;
+					}
+				}
+			}
+		}
+	}
+}

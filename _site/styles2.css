@@ -245,3 +245,12 @@ main { position: relative; }
   .info { margin: 0; }
   .github { display: block; margin: 1em auto; }
   .codrops-links { margin: 0; } }
+section.skills { background: #ed326a; }
+section.skills .grid { grid-template-columns: repeat(12, calc(100% / 12)); grid-template-rows: 100px 100px 100px; }
+section.skills .grid .grid__item { background: yellow; }
+
+section.skills .skills-container { display: flex; }
+section.skills .skills-container .skills-container__item { flex-basis: 50%; border: 1px solid; }
+section.skills .skills-container .skills-container__item .skills-container__item--header { text-align: center; }
+section.skills .skills-container .skills-container__item .grid .grid__item { border: 1px dashed; }
+section.skills .skills-container .skills-container__item .grid .grid__item.big { grid-column-start: 3; grid-column-end: 10; }
