@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5 { -webkit-margin-before: 0; -webkit-margin-after: 0; }
 
 .preview-open { overflow: hidden; }
 
+.website__link { display: none; }
+
+body.preview-open .website__link { display: inline-block; }
+
 .dont__scroll { height: 100%; }
 
 section { min-height: 100vh; padding: 2rem; }
@@ -180,7 +184,7 @@ main { position: relative; }
 
 .overlay { pointer-events: none; width: 100%; height: 100vh; position: fixed; top: 0; left: 0; z-index: 1000; overflow: hidden; }
 .overlay .box__text { position: fixed; top: 0; width: 300px; right: 50px; height: 100vh; padding-top: 50px; -webkit-margin-before: 0; -webkit-margin-after: 0; }
-.overlay .box__text .website__link { font-size: inherit; text-decoration: underline; color: blue; pointer-events: auto; margin-top: 0.2rem; display: inline-block; transition: all 0.25s ease-in-out; }
+.overlay .box__text .website__link { font-size: inherit; text-decoration: underline; color: blue; pointer-events: auto; margin-top: 0.2rem; transition: all 0.25s ease-in-out; }
 .overlay .box__text .website__link:hover { letter-spacing: 0.165rem; }
 .overlay .box__text .box__text-inner { display: inline-block; padding: 0; border: none; }
 .overlay .box__text .box__text-inner > h4 { border: 6px solid var(--color-text); background: #ececec; -webkit-margin-before: 0; -webkit-margin-after: 0; padding: 0.25rem 1.25rem; position: relative; z-index: 1; }
@@ -249,8 +253,16 @@ section.skills { background: #ed326a; }
 section.skills .grid { grid-template-columns: repeat(12, calc(100% / 12)); grid-template-rows: 100px 100px 100px; }
 section.skills .grid .grid__item { background: yellow; }
 
-section.skills .skills-container { display: flex; }
-section.skills .skills-container .skills-container__item { flex-basis: 50%; border: 1px solid; }
-section.skills .skills-container .skills-container__item .skills-container__item--header { text-align: center; }
-section.skills .skills-container .skills-container__item .grid .grid__item { border: 1px dashed; }
-section.skills .skills-container .skills-container__item .grid .grid__item.big { grid-column-start: 3; grid-column-end: 10; }
+section.skills .container { text-transform: uppercase; font-size: 16px; position: relative; display: flex; width: 380px; justify-content: center; }
+section.skills .container .flex__item { position: absolute; font-family: 'Anton', sans-serif; margin-bottom: 0.5em; text-align: center; transition: all 0.5s; }
+section.skills .container .flex__item.big { width: 253.3333333333px; font-size: 32px; }
+section.skills .container .flex__item.medium { width: 126.6666666667px; font-size: 22.4px; }
+section.skills .container .flex__item.small { width: 95px; }
+section.skills .container .flex__item#css { top: 0; }
+section.skills .container .flex__item#html { top: 235px; left: 0; }
+section.skills .container .flex__item#scss { top: 235px; left: 126.6666666667px; }
+section.skills .container .flex__item#javascript { top: 235px; left: 253.3333333333px; }
+section.skills .container .flex__item#wordpress { top: 375px; left: 0; }
+section.skills .container .flex__item#git { top: 375px; left: 95px; }
+section.skills .container .flex__item#bitbucket { top: 375px; left: 190px; }
+section.skills .container .flex__item#php { top: 375px; left: 285px; }

@@ -5,6 +5,12 @@
 //variables
 $color-about: #ed326a;
 
+//variables for SKILLS section
+$flex-width: 380px;
+$font-size: 16px;
+$flex-item-pos-1: 235px;
+$flex-item-pos-2: 375px;
+
 
 .navbar-custom {
 	background: blue;
@@ -248,6 +254,16 @@ h5 {
 
 .preview-open {
 	overflow: hidden;
+}
+
+.website__link {
+	display: none;
+}
+
+body.preview-open {
+	.website__link {
+		display: inline-block;
+	}
 }
 
 .dont__scroll {
@@ -671,7 +687,6 @@ main {
 			color: blue;
 			pointer-events: auto;
 			margin-top: 0.2rem;
-			display: inline-block;
 			transition: all 0.25s ease-in-out;
 			&:hover {
 				letter-spacing: 0.165rem;
@@ -962,22 +977,61 @@ section.skills {
 }
 
 section.skills {
-	.skills-container {
+	.container {
+		text-transform: uppercase;
+		font-size: $font-size;
+		position: relative;
 		display: flex;
-		.skills-container__item {
-			flex-basis: 50%;
-			border: 1px solid;
-			.skills-container__item--header {
-				text-align: center;
+		width: $flex-width;
+		justify-content: center;
+		.flex__item {
+			position: absolute;
+			font-family: 'Anton', sans-serif;
+			margin-bottom: 0.5em;
+			text-align: center;
+			// border: 1px dashed;
+			transition: all 0.5s;
+			&.big {
+				width: $flex-width / 1.5;
+				font-size: $font-size * 2;
 			}
-			.grid {
-				.grid__item {
-					border: 1px dashed;
-					&.big {
-						grid-column-start: 3;
-						grid-column-end: 10;
-					}
-				}
+			&.medium {
+				width: $flex-width / 3;
+				font-size: $font-size * 1.4;
+			}
+			&.small {
+				width: $flex-width / 4;
+			}
+			&#css {
+				top: 0;
+			}
+			&#html {
+				top: $flex-item-pos-1;
+				left: 0;
+			}
+			&#scss {
+				top: $flex-item-pos-1;
+				left: $flex-width / 3;
+			}
+			&#javascript {
+				top: $flex-item-pos-1;
+				left: $flex-width / 3 * 2;
+			}
+			&#wordpress {
+				top: $flex-item-pos-2;
+				left: 0;
+			}
+			&#git {
+				top: $flex-item-pos-2;
+				left: $flex-width / 4;
+			}
+			&#bitbucket {
+				top: $flex-item-pos-2;
+				left: $flex-width / 2;
+			}
+			&#php {
+				top: $flex-item-pos-2;
+				left: $flex-width / 4 * 3;
 			}
 		}
 	}

@@ -13,6 +13,86 @@ $(document).ready(function () {
 	console.log('ready!');
 });
 
+//position change function
+//get div position
+i = 0;
+const itemNumber = $(".container div").length;
+console.log("size:" + itemNumber);
+
+for (var i = 0; i <= itemNumber; i++) {
+  this["position_" + i] = $(".flex__item:nth-of-type(" + i + ")").css([
+    "top",
+    "left"
+  ]);
+}
+
+//only test
+console.log("Position_1", position_1);
+
+
+// ********************************
+//change position on click, added MC
+$("#button").on("click", function() {
+  if ($(this).hasClass("active")) {
+    $(this).removeClass("active");
+    $(".flex__item").css("order", "initial");
+
+    $("#css").removeClass("medium");
+    $("#css").addClass("big");
+    $("#css").css({ top: "", left: "" });
+
+    $("#html").removeClass("big");
+    $("#html").addClass("medium");
+    $("#html").css({ top: "", left: "" });
+
+    $("#scss").css({ top: "", left: "" });
+
+    $("#javascript").removeClass("small");
+    $("#javascript").addClass("medium");
+    $("#javascript").css({ top: "", left: "" });
+
+    $("#wordpress").removeClass("medium");
+    $("#wordpress").addClass("small");
+    $("#wordpress").css({ top: "", left: "" });
+    
+    $("#git").css({ top: "", left: "" });
+    $("#bitbucket").css({ top: "", left: "" });
+    $("#php").css({ top: "", left: "" });
+
+
+  } else {
+    $(this).addClass("active");
+
+    $("#css").removeClass("big");
+    $("#css").addClass("medium");
+    $("#css").css(position_3);
+
+    $("#html").removeClass("medium");
+    $("#html").addClass("big");
+    $("#html").css(position_1);
+
+    $("#scss").css(position_2);
+
+    $("#javascript").removeClass("medium");
+    $("#javascript").addClass("small");
+    $("#javascript").css(position_6);
+
+    $("#wordpress").removeClass("small");
+    $("#wordpress").addClass("medium");
+    $("#wordpress").css(position_4);
+    
+     $("#git").css(position_8);
+     $("#bitbucket").css(position_5);
+     $("#php").css(position_7);
+  }
+});
+
+//change position on click, added MC
+// ********************************
+
+
+
+
 {
 	const lineEq = (y2, y1, x2, x1, currentVal) => {
 		// y = mx + b
