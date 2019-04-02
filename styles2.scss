@@ -977,61 +977,113 @@ section.skills {
 }
 
 section.skills {
-	.container {
-		text-transform: uppercase;
-		font-size: $font-size;
-		position: relative;
-		display: flex;
-		width: $flex-width;
-		justify-content: center;
-		.flex__item {
+	.box {
+		height: 500px;
+		.box__shadow_cow {
 			position: absolute;
-			font-family: 'Anton', sans-serif;
-			margin-bottom: 0.5em;
-			text-align: center;
-			// border: 1px dashed;
-			transition: all 0.5s;
-			&.big {
-				width: $flex-width / 1.5;
-				font-size: $font-size * 2;
+			background: #333;
+			opacity: 0.3;
+			width: 190px;
+			height: 100px;
+			border-radius: 50%;
+			top: 6rem;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: auto;
+			&:nth-of-type(2),
+			&:nth-of-type(3),
+			&:nth-of-type(4) {
+				top: 18rem;
+				width: 95px;
+				height: 50px;
 			}
-			&.medium {
-				width: $flex-width / 3;
-				font-size: $font-size * 1.4;
+			&:nth-of-type(2) {
+				left: -16rem;
 			}
-			&.small {
-				width: $flex-width / 4;
-			}
-			&#css {
-				top: 0;
-			}
-			&#html {
-				top: $flex-item-pos-1;
+			&:nth-of-type(3) {
 				left: 0;
 			}
-			&#scss {
-				top: $flex-item-pos-1;
-				left: $flex-width / 3;
+			&:nth-of-type(4) {
+				left: 16rem;
 			}
-			&#javascript {
-				top: $flex-item-pos-1;
-				left: $flex-width / 3 * 2;
+			&:nth-of-type(5),
+			&:nth-of-type(6),
+			&:nth-of-type(7),
+			&:nth-of-type(8) {
+				top: 26rem;
+				width: 62px;
+				height: 32px;
 			}
-			&#wordpress {
-				top: $flex-item-pos-2;
-				left: 0;
+			&:nth-of-type(5) {
+				left: -17.4rem;
 			}
-			&#git {
-				top: $flex-item-pos-2;
-				left: $flex-width / 4;
+			&:nth-of-type(6) {
+				left: -6rem;
+			}			
+			&:nth-of-type(7) {
+				left: 6rem;
+			}			
+			&:nth-of-type(8) {
+				left: 17.5rem;
 			}
-			&#bitbucket {
-				top: $flex-item-pos-2;
-				left: $flex-width / 2;
-			}
-			&#php {
-				top: $flex-item-pos-2;
-				left: $flex-width / 4 * 3;
+		}
+		.container {
+			text-transform: uppercase;
+			font-size: $font-size;
+			position: relative;
+			display: flex;
+			width: $flex-width;
+			justify-content: center;
+			.flex__item {
+				position: absolute;
+				font-family: 'Anton', sans-serif;
+				margin-bottom: 0.5em;
+				text-align: center;
+				// border: 1px dashed;
+				transition: all 0.5s;
+				&.big {
+					width: $flex-width / 1.5;
+					font-size: $font-size * 2;
+				}
+				&.medium {
+					width: $flex-width / 3;
+					font-size: $font-size * 1.4;
+				}
+				&.small {
+					width: $flex-width / 4;
+				}
+				&#css {
+					top: 0;
+				}
+				&#html {
+					top: $flex-item-pos-1;
+					left: 0;
+				}
+				&#scss {
+					top: $flex-item-pos-1;
+					left: $flex-width / 3;
+				}
+				&#javascript {
+					top: $flex-item-pos-1;
+					left: $flex-width / 3 * 2;
+				}
+				&#wordpress {
+					top: $flex-item-pos-2;
+					left: 0;
+				}
+				&#git {
+					top: $flex-item-pos-2;
+					left: $flex-width / 4;
+				}
+				&#bitbucket {
+					top: $flex-item-pos-2;
+					left: $flex-width / 2;
+				}
+				&#php {
+					top: $flex-item-pos-2;
+					left: $flex-width / 4 * 3;
+				}
 			}
 		}
 	}

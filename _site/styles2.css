@@ -253,16 +253,27 @@ section.skills { background: #ed326a; }
 section.skills .grid { grid-template-columns: repeat(12, calc(100% / 12)); grid-template-rows: 100px 100px 100px; }
 section.skills .grid .grid__item { background: yellow; }
 
-section.skills .container { text-transform: uppercase; font-size: 16px; position: relative; display: flex; width: 380px; justify-content: center; }
-section.skills .container .flex__item { position: absolute; font-family: 'Anton', sans-serif; margin-bottom: 0.5em; text-align: center; transition: all 0.5s; }
-section.skills .container .flex__item.big { width: 253.3333333333px; font-size: 32px; }
-section.skills .container .flex__item.medium { width: 126.6666666667px; font-size: 22.4px; }
-section.skills .container .flex__item.small { width: 95px; }
-section.skills .container .flex__item#css { top: 0; }
-section.skills .container .flex__item#html { top: 235px; left: 0; }
-section.skills .container .flex__item#scss { top: 235px; left: 126.6666666667px; }
-section.skills .container .flex__item#javascript { top: 235px; left: 253.3333333333px; }
-section.skills .container .flex__item#wordpress { top: 375px; left: 0; }
-section.skills .container .flex__item#git { top: 375px; left: 95px; }
-section.skills .container .flex__item#bitbucket { top: 375px; left: 190px; }
-section.skills .container .flex__item#php { top: 375px; left: 285px; }
+section.skills .box { height: 500px; }
+section.skills .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
+section.skills .box .box__shadow_cow:nth-of-type(2), section.skills .box .box__shadow_cow:nth-of-type(3), section.skills .box .box__shadow_cow:nth-of-type(4) { top: 18rem; width: 95px; height: 50px; }
+section.skills .box .box__shadow_cow:nth-of-type(2) { left: -16rem; }
+section.skills .box .box__shadow_cow:nth-of-type(3) { left: 0; }
+section.skills .box .box__shadow_cow:nth-of-type(4) { left: 16rem; }
+section.skills .box .box__shadow_cow:nth-of-type(5), section.skills .box .box__shadow_cow:nth-of-type(6), section.skills .box .box__shadow_cow:nth-of-type(7), section.skills .box .box__shadow_cow:nth-of-type(8) { top: 26rem; width: 62px; height: 32px; }
+section.skills .box .box__shadow_cow:nth-of-type(5) { left: -17.4rem; }
+section.skills .box .box__shadow_cow:nth-of-type(6) { left: -6rem; }
+section.skills .box .box__shadow_cow:nth-of-type(7) { left: 6rem; }
+section.skills .box .box__shadow_cow:nth-of-type(8) { left: 17.5rem; }
+section.skills .box .container { text-transform: uppercase; font-size: 16px; position: relative; display: flex; width: 380px; justify-content: center; }
+section.skills .box .container .flex__item { position: absolute; font-family: 'Anton', sans-serif; margin-bottom: 0.5em; text-align: center; transition: all 0.5s; }
+section.skills .box .container .flex__item.big { width: 253.3333333333px; font-size: 32px; }
+section.skills .box .container .flex__item.medium { width: 126.6666666667px; font-size: 22.4px; }
+section.skills .box .container .flex__item.small { width: 95px; }
+section.skills .box .container .flex__item#css { top: 0; }
+section.skills .box .container .flex__item#html { top: 235px; left: 0; }
+section.skills .box .container .flex__item#scss { top: 235px; left: 126.6666666667px; }
+section.skills .box .container .flex__item#javascript { top: 235px; left: 253.3333333333px; }
+section.skills .box .container .flex__item#wordpress { top: 375px; left: 0; }
+section.skills .box .container .flex__item#git { top: 375px; left: 95px; }
+section.skills .box .container .flex__item#bitbucket { top: 375px; left: 190px; }
+section.skills .box .container .flex__item#php { top: 375px; left: 285px; }

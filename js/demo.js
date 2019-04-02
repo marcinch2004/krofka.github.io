@@ -550,6 +550,7 @@ $("#button").on("click", function() {
 	let allowTilt = true;
 	new Grid(document.querySelector('.grid'));
 	new Grid(document.querySelector('.grid-about'));
+	new Grid(document.querySelector('.grid-section'));
 
 	// Preload all the images in the page..
 	imagesLoaded(document.querySelectorAll('.box__img'), () => document.body.classList.remove('loading'));
