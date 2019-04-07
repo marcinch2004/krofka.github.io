@@ -1053,34 +1053,34 @@ section.skills {
 				&.small {
 					width: $flex-width / 4;
 				}
-				&#css {
+				&#css, &#sketch {
 					top: 0;
 				}
-				&#html {
+				&#html, &#xd {
 					top: $flex-item-pos-1;
 					left: 0;
 				}
-				&#scss {
+				&#scss, &#indesign {
 					top: $flex-item-pos-1;
 					left: $flex-width / 3;
 				}
-				&#javascript {
+				&#javascript, &#illustrator {
 					top: $flex-item-pos-1;
 					left: $flex-width / 3 * 2;
 				}
-				&#wordpress {
+				&#wordpress, &#invision {
 					top: $flex-item-pos-2;
 					left: 0;
 				}
-				&#git {
+				&#git, &#uxpin {
 					top: $flex-item-pos-2;
 					left: $flex-width / 4;
 				}
-				&#bitbucket {
+				&#bitbucket, &#photoshop {
 					top: $flex-item-pos-2;
 					left: $flex-width / 2;
 				}
-				&#php {
+				&#php, &#figma {
 					top: $flex-item-pos-2;
 					left: $flex-width / 4 * 3;
 				}

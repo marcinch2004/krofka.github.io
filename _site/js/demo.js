@@ -32,9 +32,11 @@ console.log("Position_1", position_1);
 
 // ********************************
 //change position on click, added MC
-$("#button").on("click", function() {
+$("#button-box-1").on("click", function() {
   if ($(this).hasClass("active")) {
-    $(this).removeClass("active");
+	$(this).removeClass("active");
+	$(this).html("Best known");
+
     $(".flex__item").css("order", "initial");
 
     $("#css").removeClass("medium");
@@ -61,7 +63,8 @@ $("#button").on("click", function() {
 
 
   } else {
-    $(this).addClass("active");
+	$(this).addClass("active");
+	$(this).html("Most used");
 
     $("#css").removeClass("big");
     $("#css").addClass("medium");
@@ -86,6 +89,63 @@ $("#button").on("click", function() {
      $("#php").css(position_7);
   }
 });
+
+$("#button-box-2").on("click", function() {
+	if ($(this).hasClass("active")) {
+	  $(this).removeClass("active");
+	  $(this).html("Best known");
+	  $(".flex__item").css("order", "initial");
+  
+	  $("#sketch").removeClass("medium");
+	  $("#sketch").addClass("big");
+	  $("#sketch").css({ top: "", left: "" });
+  
+	  $("#xd").removeClass("big");
+	  $("#xd").addClass("medium");
+	  $("#xd").css({ top: "", left: "" });
+  
+	  $("#indesign").css({ top: "", left: "" });
+  
+	  $("#illustrator").removeClass("small");
+	  $("#illustrator").addClass("medium");
+	  $("#illustrator").css({ top: "", left: "" });
+  
+	  $("#invision").removeClass("medium");
+	  $("#invision").addClass("small");
+	  $("#invision").css({ top: "", left: "" });
+	  
+	  $("#uxpin").css({ top: "", left: "" });
+	  $("#photoshop").css({ top: "", left: "" });
+	  $("#figma").css({ top: "", left: "" });
+  
+  
+	} else {
+	  $(this).addClass("active");
+	  $(this).html("Most used");
+  
+	  $("#sketch").removeClass("big");
+	  $("#sketch").addClass("medium");
+	  $("#sketch").css(position_3);
+  
+	  $("#xd").removeClass("medium");
+	  $("#xd").addClass("big");
+	  $("#xd").css(position_1);
+  
+	  $("#indesign").css(position_2);
+  
+	  $("#illustrator").removeClass("medium");
+	  $("#illustrator").addClass("small");
+	  $("#illustrator").css(position_6);
+  
+	  $("#invision").removeClass("small");
+	  $("#invision").addClass("medium");
+	  $("#invision").css(position_4);
+	  
+	   $("#uxpin").css(position_8);
+	   $("#photoshop").css(position_5);
+	   $("#figma").css(position_7);
+	}
+  });
 
 //change position on click, added MC
 // ********************************

@@ -269,11 +269,11 @@ section.skills .box .container .flex__item { position: absolute; font-family: 'A
 section.skills .box .container .flex__item.big { width: 253.3333333333px; font-size: 32px; }
 section.skills .box .container .flex__item.medium { width: 126.6666666667px; font-size: 22.4px; }
 section.skills .box .container .flex__item.small { width: 95px; }
-section.skills .box .container .flex__item#css { top: 0; }
-section.skills .box .container .flex__item#html { top: 235px; left: 0; }
-section.skills .box .container .flex__item#scss { top: 235px; left: 126.6666666667px; }
-section.skills .box .container .flex__item#javascript { top: 235px; left: 253.3333333333px; }
-section.skills .box .container .flex__item#wordpress { top: 375px; left: 0; }
-section.skills .box .container .flex__item#git { top: 375px; left: 95px; }
-section.skills .box .container .flex__item#bitbucket { top: 375px; left: 190px; }
-section.skills .box .container .flex__item#php { top: 375px; left: 285px; }
+section.skills .box .container .flex__item#css, section.skills .box .container .flex__item#sketch { top: 0; }
+section.skills .box .container .flex__item#html, section.skills .box .container .flex__item#xd { top: 235px; left: 0; }
+section.skills .box .container .flex__item#scss, section.skills .box .container .flex__item#indesign { top: 235px; left: 126.6666666667px; }
+section.skills .box .container .flex__item#javascript, section.skills .box .container .flex__item#illustrator { top: 235px; left: 253.3333333333px; }
+section.skills .box .container .flex__item#wordpress, section.skills .box .container .flex__item#invision { top: 375px; left: 0; }
+section.skills .box .container .flex__item#git, section.skills .box .container .flex__item#uxpin { top: 375px; left: 95px; }
+section.skills .box .container .flex__item#bitbucket, section.skills .box .container .flex__item#photoshop { top: 375px; left: 190px; }
+section.skills .box .container .flex__item#php, section.skills .box .container .flex__item#figma { top: 375px; left: 285px; }
