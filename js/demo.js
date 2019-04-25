@@ -32,10 +32,13 @@ console.log("Position_1", position_1);
 
 // ********************************
 //change position on click, added MC
-$("#button-box-1").on("click", function() {
+$("#button-box-1 .button-text").on("click", function() {
   if ($(this).hasClass("active")) {
-	$(this).removeClass("active");
-	$(this).html("Best known");
+		return false;
+	}
+	else if ($(".button-text:last-of-type").hasClass("active")) {
+		$(".button-text").removeClass("active");
+		$(this).addClass("active");
 
     $(".flex__item").css("order", "initial");
 
@@ -63,8 +66,9 @@ $("#button-box-1").on("click", function() {
 
 
   } else {
-	$(this).addClass("active");
-	$(this).html("Most used");
+		$(".button-text").removeClass("active");
+		$(this).addClass("active");
+	// $(this).html("Most used");
 
     $("#css").removeClass("big");
     $("#css").addClass("medium");

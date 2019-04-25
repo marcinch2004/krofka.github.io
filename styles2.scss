@@ -967,11 +967,36 @@ main {
 
 section.skills {
 	background: #ed326a;
-	.grid {
-		grid-template-columns: repeat(12, calc(100% / 12));
-		grid-template-rows: 100px 100px 100px;
-		.grid__item {
-			background: yellow;
+	.grid__item {
+		margin-top: 1em;
+		.grid__item--container {
+			text-align: center;
+			// border: 1px dashed;
+			button {
+				background-color: transparent;
+				border: transparent;
+			}
+			.button__container {
+				.button-text {
+					background: transparent;
+					padding: 0.25rem 0.75rem;
+					margin: 0 0.2rem;
+					border-radius: 0.4rem;
+					color: #000;
+					opacity: 0.5;
+					border: 1px solid black;
+					cursor: pointer;
+					transition: all 0.2s ease-in-out;
+					&.active {
+						background: white;
+						opacity: 1;
+						border: 1px solid white;
+					}
+					&:not(.active):hover {
+						opacity: 0.75;
+					}
+				}
+			}
 		}
 	}
 }

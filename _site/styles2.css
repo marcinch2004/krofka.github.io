@@ -250,8 +250,12 @@ main { position: relative; }
   .github { display: block; margin: 1em auto; }
   .codrops-links { margin: 0; } }
 section.skills { background: #ed326a; }
-section.skills .grid { grid-template-columns: repeat(12, calc(100% / 12)); grid-template-rows: 100px 100px 100px; }
-section.skills .grid .grid__item { background: yellow; }
+section.skills .grid__item { margin-top: 1em; }
+section.skills .grid__item .grid__item--container { text-align: center; }
+section.skills .grid__item .grid__item--container button { background-color: transparent; border: transparent; }
+section.skills .grid__item .grid__item--container .button__container .button-text { background: transparent; padding: 0.25rem 0.75rem; margin: 0 0.2rem; border-radius: 0.4rem; color: #000; opacity: 0.5; border: 1px solid black; cursor: pointer; transition: all 0.2s ease-in-out; }
+section.skills .grid__item .grid__item--container .button__container .button-text.active { background: white; opacity: 1; border: 1px solid white; }
+section.skills .grid__item .grid__item--container .button__container .button-text:not(.active):hover { opacity: 0.75; }
 
 section.skills .box { height: 500px; }
 section.skills .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
