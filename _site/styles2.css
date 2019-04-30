@@ -249,15 +249,16 @@ main { position: relative; }
   .info { margin: 0; }
   .github { display: block; margin: 1em auto; }
   .codrops-links { margin: 0; } }
+/*SKILLS SECTION*/
 section.skills { background: #ed326a; }
-section.skills .grid__item { margin-top: 1em; }
-section.skills .grid__item .grid__item--container { text-align: center; }
-section.skills .grid__item .grid__item--container button { background-color: transparent; border: transparent; }
-section.skills .grid__item .grid__item--container .button__container .button-text { background: transparent; padding: 0.25rem 0.75rem; margin: 0 0.2rem; border-radius: 0.4rem; color: #000; opacity: 0.5; border: 1px solid black; cursor: pointer; transition: all 0.2s ease-in-out; }
-section.skills .grid__item .grid__item--container .button__container .button-text.active { background: white; opacity: 1; border: 1px solid white; }
-section.skills .grid__item .grid__item--container .button__container .button-text:not(.active):hover { opacity: 0.75; }
+section.skills .flex__container { display: flex; justify-content: space-evenly; }
+section.skills .flex__container .grid__item { display: flex; flex-direction: column; align-items: center; margin-top: 1em; text-align: center; }
+section.skills .flex__container .grid__item .button__container { margin: 1rem 0 -2rem; }
+section.skills .flex__container .grid__item .button__container .button-text { background: transparent; padding: 0.25rem 0.75rem; margin: 0 0.2rem; color: #000; opacity: 0.5; border: 1px solid black; cursor: pointer; transition: all 0.2s ease-in-out; }
+section.skills .flex__container .grid__item .button__container .button-text.active { background: white; opacity: 1; border: 1px solid white; }
+section.skills .flex__container .grid__item .button__container .button-text:not(.active):hover { opacity: 0.75; }
 
-section.skills .box { height: 500px; }
+section.skills .box { height: 500px; cursor: auto; }
 section.skills .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 section.skills .box .box__shadow_cow:nth-of-type(2), section.skills .box .box__shadow_cow:nth-of-type(3), section.skills .box .box__shadow_cow:nth-of-type(4) { top: 18rem; width: 95px; height: 50px; }
 section.skills .box .box__shadow_cow:nth-of-type(2) { left: -16rem; }
@@ -281,3 +282,10 @@ section.skills .box .container .flex__item#wordpress, section.skills .box .conta
 section.skills .box .container .flex__item#git, section.skills .box .container .flex__item#uxpin { top: 375px; left: 95px; }
 section.skills .box .container .flex__item#bitbucket, section.skills .box .container .flex__item#photoshop { top: 375px; left: 190px; }
 section.skills .box .container .flex__item#php, section.skills .box .container .flex__item#figma { top: 375px; left: 285px; }
+
+section.skills .box__header { display: flex; justify-content: center; width: 100%; height: auto; margin-bottom: 0; }
+section.skills .box__header .box__text-inner { background: #ed326a; z-index: 10; }
+section.skills .box__header .box__text { top: -4.5rem; }
+section.skills .box__header .box__shadow { top: 1rem; left: 1rem; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOklEQVQoU43MSwoAMAgD0eT+h7ZYaOlHo7N+DNHL2HAGgBWcyGcKbqTghTL4oQiG6IUpOqFEC5bI4QD8PAoKd9j4XwAAAABJRU5ErkJggg==); border-radius: 0; }
+
+@media screen and (max-width: 55em) { section.skills .flex__container { display: block; } }

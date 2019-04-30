@@ -36,8 +36,8 @@ $("#button-box-1 .button-text").on("click", function() {
   if ($(this).hasClass("active")) {
 		return false;
 	}
-	else if ($(".button-text:last-of-type").hasClass("active")) {
-		$(".button-text").removeClass("active");
+	else if ($("#button-box-1 .button-text:last-of-type").hasClass("active")) {
+    $("#button-box-1 .button-text").removeClass("active");
 		$(this).addClass("active");
 
     $(".flex__item").css("order", "initial");
@@ -66,9 +66,8 @@ $("#button-box-1 .button-text").on("click", function() {
 
 
   } else {
-		$(".button-text").removeClass("active");
+    $("#button-box-1 .button-text").removeClass("active");
 		$(this).addClass("active");
-	// $(this).html("Most used");
 
     $("#css").removeClass("big");
     $("#css").addClass("medium");
@@ -94,10 +93,14 @@ $("#button-box-1 .button-text").on("click", function() {
   }
 });
 
-$("#button-box-2").on("click", function() {
-	if ($(this).hasClass("active")) {
-	  $(this).removeClass("active");
-	  $(this).html("Best known");
+$("#button-box-2 .button-text").on("click", function() {
+  if ($(this).hasClass("active")) {
+		return false;
+	}
+	else if ($("#button-box-2 .button-text:last-of-type").hasClass("active")) {
+    $("#button-box-2 .button-text").removeClass("active");
+		$(this).addClass("active");
+
 	  $(".flex__item").css("order", "initial");
   
 	  $("#sketch").removeClass("medium");
@@ -124,8 +127,8 @@ $("#button-box-2").on("click", function() {
   
   
 	} else {
-	  $(this).addClass("active");
-	  $(this).html("Most used");
+    $("#button-box-2 .button-text").removeClass("active");
+		$(this).addClass("active");
   
 	  $("#sketch").removeClass("big");
 	  $("#sketch").addClass("medium");
