@@ -253,6 +253,7 @@ main { position: relative; }
 section.skills { background: #ed326a; }
 section.skills .flex__container { display: flex; justify-content: space-evenly; }
 section.skills .flex__container .grid__item { display: flex; flex-direction: column; align-items: center; margin-top: 1em; text-align: center; }
+section.skills .flex__container .grid__item:hover .box__img { filter: none; }
 section.skills .flex__container .grid__item .button__container { margin: 1rem 0 -2rem; }
 section.skills .flex__container .grid__item .button__container .button-text { background: transparent; padding: 0.25rem 0.75rem; margin: 0 0.2rem; color: #000; opacity: 0.5; border: 1px solid black; cursor: pointer; transition: all 0.2s ease-in-out; }
 section.skills .flex__container .grid__item .button__container .button-text.active { background: white; opacity: 1; border: 1px solid white; }
@@ -282,6 +283,8 @@ section.skills .box .container .flex__item#wordpress, section.skills .box .conta
 section.skills .box .container .flex__item#git, section.skills .box .container .flex__item#uxpin { top: 375px; left: 95px; }
 section.skills .box .container .flex__item#bitbucket, section.skills .box .container .flex__item#photoshop { top: 375px; left: 190px; }
 section.skills .box .container .flex__item#php, section.skills .box .container .flex__item#figma { top: 375px; left: 285px; }
+section.skills .box .container .flex__item img { position: absolute; width: calc(100% / 3.6); top: 14%; left: 37%; }
+section.skills .box .container .flex__item span { display: block; }
 
 section.skills .box__header { display: flex; justify-content: center; width: 100%; height: auto; margin-bottom: 0; }
 section.skills .box__header .box__text-inner { background: #ed326a; z-index: 10; }

@@ -979,7 +979,10 @@ section.skills {
 			align-items: center;
 			margin-top: 1em;
 			text-align: center;
-			// border: 1px dashed;
+      // border: 1px dashed;
+      &:hover .box__img {
+        filter: none;
+      }
 			.button__container {
         margin: 1rem 0 -2rem;
 				.button-text {
@@ -1071,10 +1074,10 @@ section.skills {
 				margin-bottom: 0.5em;
 				text-align: center;
 				// border: 1px dashed;
-				transition: all 0.5s;
+        transition: all 0.5s;
 				&.big {
 					width: $flex-width / 1.5;
-					font-size: $font-size * 2;
+          font-size: $font-size * 2;
 				}
 				&.medium {
 					width: $flex-width / 3;
@@ -1113,7 +1116,16 @@ section.skills {
 				&#php, &#figma {
 					top: $flex-item-pos-2;
 					left: $flex-width / 4 * 3;
-				}
+        }
+        img {
+          position: absolute;
+          width: calc(100% / 3.6);
+          top: 14%;
+          left: 37%;
+        }
+        span {
+          display: block;
+        }
 			}
 		}
 	}
