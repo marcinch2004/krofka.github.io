@@ -6,9 +6,9 @@ img: img/portfolio//writing_tool/writing_tool-homepage.png
 images: 
     - image_path: img/portfolio//writing_tool/writing_tool-homepage.png
       class: no-shadow
-    - image_path: img/portfolio//writing_tool/WT-1.jpg
-    - image_path: img/portfolio//writing_tool/WT-2.jpg
-    - image_path: img/portfolio//writing_tool/WT-3.jpg
+    - image_path: img/portfolio//writing_tool/wt-1.jpg
+    - image_path: img/portfolio//writing_tool/wt-2.jpg
+    - image_path: img/portfolio//writing_tool/wt-3.jpg
 modalID: modalSubmarine
 keywords: Design / SCSS / Vue
 category: Design
