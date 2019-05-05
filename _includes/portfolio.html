@@ -36,6 +36,7 @@
           {% assign j = 0 %} {% for image in post.images %} {% assign j = j | plus:1 %}
           <div class="image__container">
             <img class="mySlidesx image-{{ j }} {{ image.class }}" src="{{ image.image_path }}" alt="{{ image.title}}" />
+            <figcaption>{{image.image_caption}}</figcaption>
           </div>
           {% endfor%}
         </figure>

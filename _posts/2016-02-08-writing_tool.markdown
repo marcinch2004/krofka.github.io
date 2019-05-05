@@ -9,6 +9,9 @@ images:
     - image_path: img/portfolio//writing_tool/wt-1.jpg
     - image_path: img/portfolio//writing_tool/wt-2.jpg
     - image_path: img/portfolio//writing_tool/wt-3.jpg
+    - image_path: img/portfolio//writing_tool/wt-4.jpg
+    - image_path: img/portfolio//writing_tool/wt-5.jpg
+      image_caption: Example of corrections made after UX recomendations
 modalID: modalSubmarine
 keywords: Design / SCSS / Vue
 category: Design
