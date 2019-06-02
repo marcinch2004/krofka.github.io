@@ -11,10 +11,11 @@ images:
       class: no-shadow
     - image_path: img/portfolio/vb/vb-3.png
       class: no-shadow
+      image_caption: First concept of design for VB website
 modalID: modalSafe
 keywords: Prototype / Layout
 category: Design
 website: vigmostadbjorke.no
 ---
 {:.overlay__content}
-Strona wydawnictwa Vigmostad og Bjørke
+Strona i sklep internetowy wydawnictwa Vigmostad og Bjørke oparta na podobnym założeniu co strona Fagbokforlaget. Z uwagi na inny profil sprzedawanych produktów i nieco inną zawartość (artykuły i newsy) zastosowałem bardziej gazetowy layout.

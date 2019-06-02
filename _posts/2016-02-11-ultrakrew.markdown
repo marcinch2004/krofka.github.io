@@ -13,4 +13,4 @@ category: Design
 website: ulrtakrew.pl
 ---
 {:.overlay__content}
-Moim zadaniem było stworzenie od podstaw identyfikacji graficznej i strony internetowej dla charytatywnego wydarzenia mającego na celu aktywność fizyczną i oddawanie krwi. To projekt, w którym jako ultramaratończyk i grafik uczestniczę osobiście, odpowiadając za wygląd, zawartość i funkcjonowanie strony. Strona jest wciąż modyfikowana i wciąż czeka na swoją wersję na urządzenia mobine.
+Moim zadaniem było stworzenie od podstaw identyfikacji graficznej i strony internetowej dla charytatywnego wydarzenia mającego na celu aktywność fizyczną i promocję oddawanie krwi. To projekt, w którym jako ultramaratończyk i grafik uczestniczę osobiście, odpowiadając za wygląd, zawartość i funkcjonowanie strony. Strona jest wciąż modyfikowana i  czeka na swoją wersję na urządzenia mobine.

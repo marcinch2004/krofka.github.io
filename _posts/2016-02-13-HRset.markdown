@@ -18,4 +18,4 @@ category: Design
 website: hrset.pl
 ---
 {:.overlay__content}
-Zadanie polegało na stworzeniu brandingu i strony internetowej dla nowopowstałej firmy. Wyzwaniem było stworzenie dynamicznego i nowoczesnego wizerunku firmy począwszy od stworzenia logotypu przez materiały reklamowe na stronie internetowej skończywszy. Strona miała działać szybko i płynnie, dlatego oparłem ją o własny wordpressowy template z minimalną ilością kodu.
+Zadanie polegało na stworzeniu brandingu i strony internetowej dla nowopowstałej firmy. Wyzwaniem było stworzenie dynamicznego i nowoczesnego wizerunku począwszy od stworzenia identyfikacji firmy przez materiały reklamowe, na stronie internetowej skończywszy. Strona miała działać szybko i płynnie, dlatego oparłem ją o własny wordpressowy template z minimalną ilością kodu.

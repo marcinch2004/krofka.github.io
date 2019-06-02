@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing Tool"
 date:   2016-02-01 15:08:10 -0500
-img: img/portfolio//writing_tool/writing_tool-homepage.png
+img: img/portfolio/writing_tool/writing_tool-homepage.png
 images: 
     - image_path: img/portfolio//writing_tool/writing_tool-homepage.png
       class: no-shadow

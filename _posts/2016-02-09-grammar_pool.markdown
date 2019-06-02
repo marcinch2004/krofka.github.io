@@ -2,7 +2,7 @@
 layout: post
 title:  "Grammar Pool"
 date:   2016-02-01 15:08:10 -0500
-img: img/portfolio//grammar_pool/grammar_pool-homepage.png
+img: img/portfolio/grammar_pool/grammar_pool-homepage.png
 images: 
     - image_path: img/portfolio//grammar_pool/grammar_pool-homepage.png
       class: no-shadow
@@ -10,6 +10,9 @@ images:
     - image_path: img/portfolio//grammar_pool/grammar_pool-2.jpg
     - image_path: img/portfolio//grammar_pool/grammar_pool-3.jpg
     - image_path: img/portfolio//grammar_pool/grammar_pool-4.jpg
+    - image_path: img/portfolio//grammar_pool/grammar_pool-5.png
+      class: no-shadow
+      image_caption: From wireframes to the concept and the final design
 modalID: modalSubmarine
 keywords: Design / SCSS / Vue
 category: Design

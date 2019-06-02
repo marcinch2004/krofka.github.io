@@ -16,4 +16,4 @@ website: goingplaces.portfolio.no
 *decoration: '&#10115;'
 ---
 {:.overlay__content}
-Strona edukacyjna do nauki języka angielskiego. Poniewaz na stronie jest bardzo duo zawartości, moim zadaniem było stworzenie przejrzystego layoutu. To jeden z wielu projektów, przy którym pracowałem od koncepcji przez design do zakodowania strony.
+Strona edukacyjna do nauki języka angielskiego. Ponieważ na stronie jest bardzo dużo zawartości, moim zadaniem było stworzenie przejrzystego layoutu. To jeden z wielu projektów, przy którym pracowałem od koncepcji przez design aż do zakodowania strony.

@@ -9,10 +9,13 @@ images:
     - image_path: img/portfolio/ordriket/ordriket-1.jpg
     - image_path: img/portfolio/ordriket/ordriket-2.jpg    
     - image_path: img/portfolio/ordriket/ordriket-3.jpg
+    - image_path: img/portfolio/ordriket/ordriket-4.png
+      class: no-shadow
+    - image_path: img/portfolio/ordriket/ordriket-5.jpg
 modalID: modalCircus
 keywords: Design / Prototype / Development /Portfolio CMS
 category: Design
 website: ordriket.no
 ---
 {:.overlay__content}
-W tym projekcie moim zadaniem był redesigning istniejącej strony, uatrakcyjnienie zawartości i poprawienie, o ile to jest możliwe na starym CMS-ie, jej funkcjonowania. Ściśle współpracowałem z teamem UX, którego wytyczne wdrażałem w prototyp i samą stronę. Celem było dotarcie do grupy docelowej (dzieci i nauczyciele) oraz powiązanie strony intenretowej w papierowym podręcznikiem. Stąd pomysł na zanimowanie illustracji z książki.
+W tym projekcie moim zadaniem był redesigning istniejącej strony, uatrakcyjnienie zawartości i poprawienie jej funkcjonowania. Ściśle współpracowałem z teamem UX, którego wytyczne wdrażałem w prototyp i samą stronę. Celem było dotarcie do grupy docelowej (dzieci i nauczyciele) oraz powiązanie strony intenretowej w papierowym podręcznikiem. Stąd pomysł na zanimowanie illustracji z książki.
