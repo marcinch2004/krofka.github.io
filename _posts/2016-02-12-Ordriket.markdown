@@ -12,6 +12,9 @@ images:
     - image_path: img/portfolio/ordriket/ordriket-4.png
       class: no-shadow
     - image_path: img/portfolio/ordriket/ordriket-5.jpg
+    - image_path: img/portfolio/ordriket/ordriket-6.png
+      class: no-shadow
+      image_caption: Application buttons inspired by the book illustration
 modalID: modalCircus
 keywords: Design / Prototype / Development /Portfolio CMS
 category: Design

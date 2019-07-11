@@ -12,6 +12,7 @@ images:
       class: no-shadow
     - image_path: img/portfolio/HR set/hrset-5.png
       class: no-shadow
+      image_caption: Together with a client we also worked on company's identification
 modalID: modalCake
 keywords: Branding / Design / Development / Wordpress
 category: Design

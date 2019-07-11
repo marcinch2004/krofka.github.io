@@ -8,6 +8,7 @@ images:
     - image_path: img/portfolio/goingplaces/gp_2.jpg
     - image_path: img/portfolio/goingplaces/gp_3.jpg
     - image_path: img/portfolio/goingplaces/gp_4.gif
+      image_caption: Interactive map in action
 modalID: modalCabin
 keywords: Branding / Design / Development / Portfolio CMS
 price: BELMA 2017, bronze award

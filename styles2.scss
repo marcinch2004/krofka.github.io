@@ -527,8 +527,11 @@ main {
 .grid {
 	width: 100%;
 	max-width: 1440px;
-	margin: 0 auto;
-	padding-bottom: 10rem;
+  margin: 0 auto;
+  padding: 5rem 0rem 3rem 0rem;
+  .grid__item:last-of-type {
+    margin: 0;
+  }
 }
 
 .grid__item {
@@ -776,7 +779,8 @@ main {
 
 .overlay--open {
 	pointer-events: auto;
-	overflow-y: scroll;
+  overflow-y: scroll;
+  background-color: #ececec;
 }
 
 .overlay__reveal {
@@ -841,6 +845,15 @@ main {
 	grid-column: 4;
 	grid-row: 2;
 }
+
+// @media screen and (max-width: 55em) {
+//   .portfolio {
+//     h2 {
+//       position: relative;
+//       top: -6rem;
+//     }
+//   }
+// }
 
 @media screen and (min-width: 55em) {
 	.grid {
