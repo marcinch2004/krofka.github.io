@@ -275,7 +275,7 @@ body.preview-open {
 section {
 	min-height: 100vh;
 	padding: 2rem;
-	&.about {
+	&.about, &.contact {
 		// background: $color-about;
 		display: grid;
 		li.grid__item {
@@ -341,7 +341,17 @@ section {
 		}
 	}
 	&.contact {
-		background: #57585c;
+    .contact_info {
+      .contact-text {
+        font-size: 1.5rem;
+        .contact-link {
+          display: inline-block;
+          margin: 0 0.2em;
+          padding: 0.2em 0.7em;
+          background: white;
+        }
+      }
+    }
 	}
 }
 
@@ -859,7 +869,7 @@ main {
 	.grid {
 		display: grid;
 		align-items: center;
-		padding: 3rem 3rem 3rem 3rem;
+		padding: 3rem 3rem 0rem 3rem;
 		grid-row-gap: 2rem;
 		grid-template-columns: repeat(3, calc(100% / 3));
 	}
@@ -1041,8 +1051,10 @@ section.skills {
 			flex-direction: column;
 			align-items: center;
 			margin-top: 1em;
-			text-align: center;
-      // border: 1px dashed;
+      text-align: center;
+      .box {
+        margin-bottom: 3rem;
+      }
       &:hover .box__img {
         filter: grayscale(0);
       }
@@ -1068,7 +1080,7 @@ section.skills {
 				}
 			}
 		}
-	}
+  }
 }
 
 section.skills {
