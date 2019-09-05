@@ -19,4 +19,8 @@ category: Design
 website: hrset.pl
 ---
 {:.overlay__content}
+The task was to create a branding and website for new Business Coaching company. The challenge was to create a dynamic and modern image starting from the creation of company identification through advertising materials to the working website. The site has to work quickly and smoothly, so this is why I based it on my own Wordpress template with a minimal amount of code.
+
+<!--
 Zadanie polegało na stworzeniu brandingu i strony internetowej dla nowopowstałej firmy. Wyzwaniem było stworzenie dynamicznego i nowoczesnego wizerunku począwszy od stworzenia identyfikacji firmy przez materiały reklamowe, na stronie internetowej skończywszy. Strona miała działać szybko i płynnie, dlatego oparłem ją o własny wordpressowy template z minimalną ilością kodu.
+-->

@@ -746,7 +746,11 @@ main {
 		.overlay__content {
 			font-family: 'Buenard', serif;
 			text-transform: none;
-			letter-spacing: normal;
+      letter-spacing: normal;
+      .external_link {
+        text-decoration: underline;
+        color: blue;
+      }
 		}
 	}
 	.box__content {
@@ -762,7 +766,8 @@ main {
 	.photo-gallery {
 		position: relative;
 		width: calc(100vw - 28rem);
-		max-width: 1200px;
+    max-width: 1200px;
+    text-align: right;
 		.image__container {
 			margin-bottom: 2rem;
 			border-radius: 0.3rem;
@@ -820,7 +825,10 @@ main {
 	padding: 2rem;
 	z-index: auto;
 	&.active__preview {
-		z-index: 10;
+    z-index: 10;
+    .overlay__content {
+      pointer-events: all;
+    }
 	}
 }
 
