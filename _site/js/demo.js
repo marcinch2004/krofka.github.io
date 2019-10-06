@@ -46,23 +46,26 @@ $("#button-box-1 .button-text").on("click", function() {
     $("#css").addClass("big");
     $("#css").css({ top: "", left: "" });
 
-    $("#html").removeClass("big");
-    $("#html").addClass("medium");
-    $("#html").css({ top: "", left: "" });
-
+    // $("#html").removeClass("big");
+    // $("#html").addClass("medium");
+    
+    $("#scss").removeClass("big");
+    $("#scss").addClass("medium");
     $("#scss").css({ top: "", left: "" });
+    
+    $("#html").css({ top: "", left: "" });
 
     $("#javascript").removeClass("small");
     $("#javascript").addClass("medium");
     $("#javascript").css({ top: "", left: "" });
-
-    $("#wordpress").removeClass("medium");
-    $("#wordpress").addClass("small");
-    $("#wordpress").css({ top: "", left: "" });
     
+    $("#vue").removeClass("medium");
+    $("#vue").addClass("small");
+    $("#vue").css({ top: "", left: "" });
+    
+    $("#wordpress").css({ top: "", left: "" });
     $("#git").css({ top: "", left: "" });
     $("#bitbucket").css({ top: "", left: "" });
-    $("#php").css({ top: "", left: "" });
 
 
   } else {
@@ -71,25 +74,25 @@ $("#button-box-1 .button-text").on("click", function() {
 
     $("#css").removeClass("big");
     $("#css").addClass("medium");
-    $("#css").css(position_3);
+    $("#css").css(position_2);
 
-    $("#html").removeClass("medium");
-    $("#html").addClass("big");
-    $("#html").css(position_1);
+    $("#html").css(position_3);
 
-    $("#scss").css(position_2);
+    $("#scss").removeClass("medium");
+    $("#scss").addClass("big");
+    $("#scss").css(position_1);
 
     $("#javascript").removeClass("medium");
     $("#javascript").addClass("small");
     $("#javascript").css(position_6);
-
-    $("#wordpress").removeClass("small");
-    $("#wordpress").addClass("medium");
-    $("#wordpress").css(position_4);
     
-     $("#git").css(position_8);
-     $("#bitbucket").css(position_5);
-     $("#php").css(position_7);
+    $("#vue").removeClass("small");
+    $("#vue").addClass("medium");
+    $("#vue").css(position_4);
+    
+    $("#bitbucket").css(position_5);
+    $("#git").css(position_7);
+    $("#wordpress").css(position_8);
   }
 });
 
@@ -103,14 +106,16 @@ $("#button-box-2 .button-text").on("click", function() {
 
 	  $(".flex__item").css("order", "initial");
   
-	  $("#sketch").removeClass("medium");
-	  $("#sketch").addClass("big");
+	  $("#sketch").removeClass("big");
+	  $("#sketch").addClass("medium");
 	  $("#sketch").css({ top: "", left: "" });
   
-	  $("#xd").removeClass("big");
-	  $("#xd").addClass("medium");
+	  // $("#xd").removeClass("big");
+	  // $("#xd").addClass("medium");
 	  $("#xd").css({ top: "", left: "" });
   
+	  $("#indesign").removeClass("medium");
+	  $("#indesign").addClass("big");
 	  $("#indesign").css({ top: "", left: "" });
   
 	  $("#illustrator").removeClass("small");
@@ -123,34 +128,34 @@ $("#button-box-2 .button-text").on("click", function() {
 	  
 	  $("#uxpin").css({ top: "", left: "" });
 	  $("#photoshop").css({ top: "", left: "" });
-	  $("#figma").css({ top: "", left: "" });
+	  $("#abstract").css({ top: "", left: "" });
   
   
 	} else {
     $("#button-box-2 .button-text").removeClass("active");
 		$(this).addClass("active");
   
-	  $("#sketch").removeClass("big");
-	  $("#sketch").addClass("medium");
-	  $("#sketch").css(position_3);
+	  $("#sketch").removeClass("medium");
+	  $("#sketch").addClass("big");
+	  $("#sketch").css(position_1);
   
-	  $("#xd").removeClass("medium");
-	  $("#xd").addClass("big");
-	  $("#xd").css(position_1);
+	  $("#xd").css(position_2);
   
-	  $("#indesign").css(position_2);
+    $("#indesign").removeClass("big");
+	  $("#indesign").addClass("medium");
+	  $("#indesign").css(position_3);
   
 	  $("#illustrator").removeClass("medium");
 	  $("#illustrator").addClass("small");
-	  $("#illustrator").css(position_6);
+	  $("#illustrator").css(position_5);
   
 	  $("#invision").removeClass("small");
 	  $("#invision").addClass("medium");
 	  $("#invision").css(position_4);
 	  
 	   $("#uxpin").css(position_8);
-	   $("#photoshop").css(position_5);
-	   $("#figma").css(position_7);
+	   $("#photoshop").css(position_6);
+	   $("#abstract").css(position_7);
 	}
   });
 

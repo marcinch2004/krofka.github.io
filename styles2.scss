@@ -312,6 +312,8 @@ section {
 					max-width: initial;
 					background: none;
 					margin-top: 3rem;
+          max-width: 29em;
+          align-self: center;
 				}
 			}
 			.page-scroll {
@@ -1218,14 +1220,14 @@ section.skills {
 				&.small {
 					width: $flex-width / 4;
 				}
-				&#css, &#sketch {
+				&#css, &#indesign {
 					top: 0;
 				}
-				&#html, &#xd {
+				&#html, &#sketch {
 					top: $flex-item-pos-1;
 					left: 0;
 				}
-				&#scss, &#indesign {
+				&#scss, &#xd {
 					top: $flex-item-pos-1;
 					left: $flex-width / 3;
 				}
@@ -1237,7 +1239,7 @@ section.skills {
 					top: $flex-item-pos-2;
 					left: 0;
 				}
-				&#git, &#uxpin {
+				&#vue, &#uxpin {
 					top: $flex-item-pos-2;
 					left: $flex-width / 4;
 				}
@@ -1245,7 +1247,7 @@ section.skills {
 					top: $flex-item-pos-2;
 					left: $flex-width / 2;
 				}
-				&#php, &#figma {
+				&#git, &#abstract {
 					top: $flex-item-pos-2;
 					left: $flex-width / 4 * 3;
         }

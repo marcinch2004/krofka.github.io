@@ -18,4 +18,4 @@ category: Design
 website: skriveverktoy.app.fagbokforlaget.no/#/ordriket/
 ---
 {:.overlay__content}
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Another website which is a tool for students, this time it helps improving students writing skills giving them examples and guildline through the process of different form expresions. My main taks here was to build a design which seaparates in a clear way student's working space from complex and extended panels with toolbar, navigation, tips and examples.

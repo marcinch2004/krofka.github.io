@@ -19,4 +19,7 @@ category: Design
 website: sprakoving.app.fagbokforlaget.no
 ---
 {:.overlay__content}
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Websiad contains exercises for the textbook. The project's idea was to create a simple and clear structure to help student easily navigate to exercises on appropriate level. Left column hosts hints and tips helping to solve tasks while breadcrumbs with big icons provide easy navigation. I added also subtle animations to make children's interaction with the website more enjoyable.
+
+<!--Strona z ćwiczeniami do podręcznika. Założeniem projektu było stworzenie przejrzystej struktury, w której uczeń w łatwy sposób mógłby odnależć ćwiczenia na odpowiednim poziomie. Lewy aside zawiera hints and tips pomocne w rozwiązywaniu zadań, a breadcrumby z ikonami mają pomóc w nawigowaniu. Subtelne animacje mają uprzyjemnić dzieciom interakcję ze stroną.
+-->

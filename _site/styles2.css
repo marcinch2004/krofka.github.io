@@ -88,7 +88,7 @@ section.about li.grid__item .box .box__text, section.contact li.grid__item .box 
 section.about li.grid__item .box .box__shadow, section.contact li.grid__item .box .box__shadow { top: 1rem; left: 1rem; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOklEQVQoU43MSwoAMAgD0eT+h7ZYaOlHo7N+DNHL2HAGgBWcyGcKbqTghTL4oQiG6IUpOqFEC5bI4QD8PAoKd9j4XwAAAABJRU5ErkJggg==); }
 section.about li.grid__item .box .box__shadow_cow, section.contact li.grid__item .box .box__shadow_cow { position: absolute; background: #333; opacity: 0.3; width: 190px; height: 100px; border-radius: 50%; top: 6rem; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 section.about li.grid__item .box svg, section.contact li.grid__item .box svg { width: 250px; height: auto; }
-section.about li.grid__item .box .box__contentx, section.contact li.grid__item .box .box__contentx { flex-grow: 1; font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; margin-top: 3rem; }
+section.about li.grid__item .box .box__contentx, section.contact li.grid__item .box .box__contentx { flex-grow: 1; font-size: 1.8rem; color: white; position: relative; max-width: initial; background: none; margin-top: 3rem; max-width: 29em; align-self: center; }
 section.about li.grid__item .page-scroll a, section.contact li.grid__item .page-scroll a { display: inline-block; padding: 0.5rem 1rem; background: white; }
 section.about li.grid__item .page-scroll a > span, section.contact li.grid__item .page-scroll a > span { display: inherit; font-size: 2rem; }
 section.contact .contact_info { margin: 0; }
@@ -293,14 +293,14 @@ section.skills .box .container .flex__item { position: absolute; font-family: 'A
 section.skills .box .container .flex__item.big { width: 253.3333333333px; font-size: 32px; }
 section.skills .box .container .flex__item.medium { width: 126.6666666667px; font-size: 22.4px; }
 section.skills .box .container .flex__item.small { width: 95px; }
-section.skills .box .container .flex__item#css, section.skills .box .container .flex__item#sketch { top: 0; }
-section.skills .box .container .flex__item#html, section.skills .box .container .flex__item#xd { top: 235px; left: 0; }
-section.skills .box .container .flex__item#scss, section.skills .box .container .flex__item#indesign { top: 235px; left: 126.6666666667px; }
+section.skills .box .container .flex__item#css, section.skills .box .container .flex__item#indesign { top: 0; }
+section.skills .box .container .flex__item#html, section.skills .box .container .flex__item#sketch { top: 235px; left: 0; }
+section.skills .box .container .flex__item#scss, section.skills .box .container .flex__item#xd { top: 235px; left: 126.6666666667px; }
 section.skills .box .container .flex__item#javascript, section.skills .box .container .flex__item#illustrator { top: 235px; left: 253.3333333333px; }
 section.skills .box .container .flex__item#wordpress, section.skills .box .container .flex__item#invision { top: 375px; left: 0; }
-section.skills .box .container .flex__item#git, section.skills .box .container .flex__item#uxpin { top: 375px; left: 95px; }
+section.skills .box .container .flex__item#vue, section.skills .box .container .flex__item#uxpin { top: 375px; left: 95px; }
 section.skills .box .container .flex__item#bitbucket, section.skills .box .container .flex__item#photoshop { top: 375px; left: 190px; }
-section.skills .box .container .flex__item#php, section.skills .box .container .flex__item#figma { top: 375px; left: 285px; }
+section.skills .box .container .flex__item#git, section.skills .box .container .flex__item#abstract { top: 375px; left: 285px; }
 section.skills .box .container .flex__item img { position: absolute; width: calc(100% / 3.6); top: 14%; left: 37%; }
 section.skills .box .container .flex__item span { display: block; }
 
