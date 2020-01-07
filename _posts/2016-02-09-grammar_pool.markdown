@@ -19,7 +19,7 @@ category: Design
 website: sprakoving.app.fagbokforlaget.no
 ---
 {:.overlay__content}
-Websiad contains exercises for the textbook. The project's idea was to create a simple and clear structure to help student easily navigate to exercises on appropriate level. Left column hosts hints and tips helping to solve tasks while breadcrumbs with big icons provide easy navigation. I added also subtle animations to make children's interaction with the website more enjoyable.
+The website contains exercises for textbooks. The idea was to create a simple and clear structure to help students navigate easily to exercises from the appropriate advancement level. The left column hosts hints and tips helping students solve various tasks, while breadcrumbs with big icons provide easy navigation. I also added subtle animations to make children's interaction with the website more enjoyable.
 
 <!--Strona z ćwiczeniami do podręcznika. Założeniem projektu było stworzenie przejrzystej struktury, w której uczeń w łatwy sposób mógłby odnależć ćwiczenia na odpowiednim poziomie. Lewy aside zawiera hints and tips pomocne w rozwiązywaniu zadań, a breadcrumby z ikonami mają pomóc w nawigowaniu. Subtelne animacje mają uprzyjemnić dzieciom interakcję ze stroną.
 -->

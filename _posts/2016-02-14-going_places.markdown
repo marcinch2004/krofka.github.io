@@ -20,8 +20,8 @@ website: goingplaces.portfolio.no
 *decoration: '&#10115;'
 ---
 {:.overlay__content}
-Educational site for learning English. Because the site has a lot of content, my task was to create a clear uncluttered layout. This is one of the many projects that I've worked on from concept through design and prototype to website coding. The site was prised with Bronze award in 2017 by 
-[BELMA](https://www.belma-award.eu/index.php?id=36677c318c58159d90600014fc256711){:.external_link}{:target="_blank"}
+This is an educational site for learning English. Because the site has a lot of content, my task was to create a clear and uncluttered layout. This is one of many projects where I worked from concept through design and prototype to website development. The site received the 2017 
+[BELMA](https://www.belma-award.eu/index.php?id=36677c318c58159d90600014fc256711){:.external_link}{:target="_blank"} BELMA Bronze Award for Best European Learning Materials.
 
 <!--
 Strona edukacyjna do nauki języka angielskiego. Ponieważ na stronie jest bardzo dużo zawartości, moim zadaniem było stworzenie przejrzystego layoutu. To jeden z wielu projektów, przy którym pracowałem od koncepcji przez design aż do zakodowania strony.

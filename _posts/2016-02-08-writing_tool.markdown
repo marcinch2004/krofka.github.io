@@ -18,4 +18,4 @@ category: Design
 website: skriveverktoy.app.fagbokforlaget.no/#/ordriket/
 ---
 {:.overlay__content}
-Another website which is a tool for students, this time it helps improving students writing skills giving them examples and guildline through the process of different form expresions. My main taks here was to build a design which seaparates in a clear way student's working space from complex and extended panels with toolbar, navigation, tips and examples.
+Another website which is a tool for students, this time helping them improve their writing skills, providing useful examples and offering guidance through the process of learning different grammatical forms. My main task here was to create a design that separates in a clear way the student's working space from the toolbar containing a set of navigation tools, tips and examples.

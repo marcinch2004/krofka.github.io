@@ -21,7 +21,7 @@ category: Design
 website: ordriket.no
 ---
 {:.overlay__content}
-In this project, my task was to redesign old website, make the content more attractive and improve its functionality. I worked closely with the UX team, whose ideas I implemented in the prototype and later into the website. The goal was to reach the target group (children and teachers) and build strong identity with paper textbooks. To achieve this I created a design baed on existing colour palette and books illustrations.
+In this project, my task was to redesign the old website, make the content more appealing and improve the overall functionality. I worked closely with the UX team, implementing their ideas and incorporating them into the prototype and later into the website. The goal was to reach the target group (children and teachers) and build a strong identity with paper textbooks. To do this, I created the design based on the existing colour palette and book illustrations.
 
 <!--
 W tym projekcie moim zadaniem był redesigning istniejącej strony, uatrakcyjnienie zawartości i poprawienie jej funkcjonowania. Ściśle współpracowałem z teamem UX, którego wytyczne wdrażałem w prototyp i samą stronę. Celem było dotarcie do grupy docelowej (dzieci i nauczyciele) oraz powiązanie strony intenretowej w papierowym podręcznikiem. Stąd pomysł na zanimowanie illustracji z książki.

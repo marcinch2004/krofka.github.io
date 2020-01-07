@@ -18,7 +18,7 @@ category: Design
 website: vigmostadbjorke.no
 ---
 {:.overlay__content}
-Vigmostad og Bjørke website is an online store based on a similar assumption as the Fagbokforlaget website. Due to the different profile of products and different content (articles and news) I went for more newspaper layout.
+The Vigmostad og Bjørke website is an online store based on a similar concept as the Fagbokforlaget website. Because of the different product profile and different content (articles and news), I went for a more newspaper-like layout.
 
 <!--
 Strona i sklep internetowy wydawnictwa Vigmostad og Bjørke oparta na podobnym założeniu co strona Fagbokforlaget. Z uwagi na inny profil sprzedawanych produktów i nieco inną zawartość (artykuły i newsy) zastosowałem bardziej gazetowy layout.

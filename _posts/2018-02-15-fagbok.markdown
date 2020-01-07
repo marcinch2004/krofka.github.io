@@ -17,7 +17,7 @@ category: Design
 website: fagbokforlaget.no
 ---
 {:.overlay__content}
-My task in this project was to create a page design based on the provided style guide. The challenge was to base the design on only one main color, create an easy to use filters and finding good design solution for long book titles and subtitles, as well as publications from many authors. I worked closely with the UX team and the client. The design is still updated and developed.
+My task in this project was to create the web design based on the provided style guide. The challenge was to use only one main colour, create easy-to-use filters and find smart design solutions for long book titles and subtitles, as well as publications from many authors. I worked closely with the UX team and the client. The design is still under development.
 
 <!--
 Moim zadniem w tym projekcie było stworzenie designu strony bazującego na dostarczonym stylebooku. Wyzwaniem było oparcie designu o jeden tylko kolor główny, stworzenie przejrzystego systemu filtrów i uwzględnieniu bardzo długich tytułów i podtytułów ksiązek, a takze publikacji mających wielu autorów. W trakcie pracy ściśle współpracowałem z teamem UX i klientem. Strona wciąz jest zmieniena i rozwijana.
