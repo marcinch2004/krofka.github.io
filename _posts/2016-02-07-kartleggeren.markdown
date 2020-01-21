@@ -22,4 +22,8 @@ category: Design
 website: kartleggeren.no
 ---
 {:.overlay__content}
-Use this area of the page to describe your project. The icon above is part of a free icon set by. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Kartleggeren is a complex platform for teachers. It helps to conduct tests that check students competanses in the main three school subjects: Norwegian, English and Maths. My task was to create design and prototype for the platform. The main challenge was to create clear and intuative interface. It was very complex so I went for simplicity and three colour palette that helped me to achieve the main goal of maximum functionality.
+
+<!-- 
+Kartleggeren to platforma, dzięki której nauczyciele mogą sprawdzić kompetencje swoich uczniów z trzech podstawowych przedmiotów: norweskiego, angielskiego i matemetyki. Moim zadaniem było zaprojektowanie i zaprototypowanie działania platformy, a głównym wyzwaniem było stworzenie przejrzystego i intuicyjnego w użyciu skomplikowanego interface'u. Zdecydowałem się na prostą paletę trzech kolorów, która pomogła w osiągnięciu maksymalnej funkcjonalości.
+ -->

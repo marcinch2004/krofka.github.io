@@ -11,8 +11,8 @@
 title: Marcin Portfolio
 email: marcinch2004@yahoo.ie
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
-baseurl: "/krofka" # the subpath of your site, e.g. /blog
+  Web Developer - Graphic Artist - User Experience Designer, Marcin Chełminiak, designer, front-end developer, wordpress
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marcinch2004.github.io/krofka" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
