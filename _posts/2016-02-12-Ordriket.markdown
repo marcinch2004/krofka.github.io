@@ -2,9 +2,9 @@
 layout: post
 title:  "Ordriket"
 date:   2016-02-04 15:08:10 -0500
-img: img/portfolio/ordriket/ordriket-homepage.png
+img: img/portfolio/ordriket/ordriket-homepage-small.png
 images: 
-    - image_path: img/portfolio/ordriket/ordriket-homepage-small.png
+    - image_path: img/portfolio/ordriket/ordriket-homepage.png
       class: no-shadow
     - image_path: img/portfolio/ordriket/ordriket-1.jpg
     - image_path: img/portfolio/ordriket/ordriket-2.jpg    
