@@ -2,7 +2,7 @@
 layout: post
 title:  "HRset"
 date:   2016-02-05 15:08:10 -0500
-img: img/portfolio/HR set/hrset-homepage.png
+img: img/portfolio/HR set/hrset-homepage-small.png
 images: 
     - image_path: img/portfolio/HR set/hrset-homepage.png
       class: no-shadow

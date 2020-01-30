@@ -2,7 +2,7 @@
 layout: post
 title:  "Ultrakrew"
 date:   2016-02-03 15:08:10 -0500
-img: img/portfolio/ultrakrew/ultrakrew-homepage.png
+img: img/portfolio/ultrakrew/ultrakrew-homepage-small.png
 images: 
     - image_path: img/portfolio/ultrakrew/ultrakrew-homepage.png
       class: no-shadow

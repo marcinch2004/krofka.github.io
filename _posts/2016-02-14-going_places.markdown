@@ -2,7 +2,7 @@
 layout: post
 title:  "Going Places"
 date:   2016-02-06 15:08:10 -0500
-img: img/goingplaces/goingplaces---homepage.png
+img: img/portfolio/goingplaces/goingplaces-homepage-small.png
 images: 
     - image_path: img/portfolio/goingplaces/gp_1.jpg
     - image_path: img/portfolio/goingplaces/gp_2.png

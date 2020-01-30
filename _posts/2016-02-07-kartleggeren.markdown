@@ -2,7 +2,7 @@
 layout: post
 title:  "Kartleggeren"
 date:   2016-02-01 15:08:10 -0500
-img: img/portfolio/kartleggeren/kartleggeren-homepage.png
+img: img/portfolio/kartleggeren/kartleggeren-homepage-small.png
 images: 
     - image_path: img/portfolio//kartleggeren/kartleggeren-homepage.png
       class: no-shadow

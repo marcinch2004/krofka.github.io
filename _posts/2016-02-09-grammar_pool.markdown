@@ -2,7 +2,7 @@
 layout: post
 title:  "Grammar Pool"
 date:   2016-02-01 15:08:10 -0500
-img: img/portfolio/grammar_pool/grammar_pool-homepage.png
+img: img/portfolio/grammar_pool/grammar_pool-homepage-small.png
 images: 
     - image_path: img/portfolio//grammar_pool/grammar_pool-homepage.png
       class: no-shadow

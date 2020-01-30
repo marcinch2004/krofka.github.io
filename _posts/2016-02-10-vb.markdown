@@ -2,7 +2,7 @@
 layout: post
 title:  "Vigmostad og&nbsp;Bjørke"
 date:   2016-02-02 15:08:10 -0500
-img: img/portfolio/vb/vb-homepage.png
+img: img/portfolio/vb/vb-homepage-small.png
 images: 
     - image_path: img/portfolio/vb/vb-homepage.png
       class: no-shadow
